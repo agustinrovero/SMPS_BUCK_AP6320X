@@ -614,6 +614,179 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kicad_lib:Murata_Electronics_GRM188R6YA106MA73D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10 uF"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R6YA106MA73-01A-EN_PDF_CERAMICCAPACITORSMD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "GRM188R6YA106MA73D"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "20 %"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "35 V"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Murata_Electronics_GRM188R6YA106MA73D_0_1"
+				(polyline
+					(pts
+						(xy -0.381 1.905) (xy -0.381 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.905) (xy 0.381 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Murata_Electronics_GRM188R6YA106MA73D_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.159)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.159)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D"
 			(pin_numbers
 				(hide yes)
@@ -748,6 +921,188 @@
 				)
 			)
 			(symbol "Murata_Electronics_GRM188Z71A106KA73D_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.159)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.159)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kicad_lib:Samsung_Electro-Mechanics_CL10A105KB8NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1 uF"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0603 (1608 Metric)"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10A105KB8NNNC"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "10 %"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50 V"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Temperature Coefficient" "X5R"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Samsung_Electro-Mechanics_CL10A105KB8NNNC_0_1"
+				(polyline
+					(pts
+						(xy -0.381 1.905) (xy -0.381 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.905) (xy 0.381 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Samsung_Electro-Mechanics_CL10A105KB8NNNC_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 2.159)
@@ -1133,6 +1488,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kicad_lib:YAGEO_RC0603FR-070RL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0 Ω"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+				(at -1.27 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0603FR-070RL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIJ4EMDmBTA9gAgE4GMAMAbHgMwBmWAtHgOx5YA2IAugL5A"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-070RL?qs=0yPvnVz5%2FmpDQv43TwvCfw%3D%3D"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1 %"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "100 mW"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "YAGEO_RC0603FR-070RL_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.524 0) (xy -1.27 0.508) (xy -0.762 -0.508) (xy -0.254 0.508) (xy 0.254 -0.508)
+						(xy 0.762 0.508) (xy 1.27 -0.508) (xy 1.524 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "YAGEO_RC0603FR-070RL_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kicad_lib:YAGEO_RC0603FR-0710KL"
 			(pin_numbers
 				(hide yes)
@@ -1295,6 +1812,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kicad_lib:YAGEO_RC0603FR-071KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1 kΩ"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+				(at -1.27 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "RC0603FR-071KL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1 %"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "100 mW"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "YAGEO_RC0603FR-071KL_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.524 0) (xy -1.27 0.508) (xy -0.762 -0.508) (xy -0.254 0.508) (xy 0.254 -0.508)
+						(xy 0.762 0.508) (xy 1.27 -0.508) (xy 1.524 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "YAGEO_RC0603FR-071KL_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1398,8 +2077,8 @@
 		)
 	)
 	(rectangle
-		(start 88.9 63.5)
-		(end 248.92 139.7)
+		(start 45.72 63.5)
+		(end 218.44 114.3)
 		(stroke
 			(width 0.762)
 			(type default)
@@ -1409,69 +2088,87 @@
 		)
 		(uuid 693995d2-b237-4f21-90b1-25a8cd4861e7)
 	)
+	(rectangle
+		(start 25.4 127)
+		(end 50.8 147.32)
+		(stroke
+			(width 0.762)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 990c008f-6bdb-45ce-930e-f85a06d5b28c)
+	)
 	(junction
-		(at 200.66 96.52)
+		(at 66.04 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "099bb700-00f0-49ef-abc5-e0a06599e099")
+	)
+	(junction
+		(at 167.64 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1447b7ff-1ec5-42c0-b587-f82d3b609639")
 	)
 	(junction
-		(at 187.96 96.52)
+		(at 154.94 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "252089de-9b27-465b-be2d-1522a006eae4")
 	)
 	(junction
-		(at 226.06 96.52)
+		(at 193.04 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f611402-efaa-4a0d-8a30-b294472a49a7")
 	)
 	(junction
-		(at 149.86 96.52)
+		(at 116.84 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "381da266-f105-49db-a672-badca4d2781c")
 	)
 	(junction
-		(at 165.1 96.52)
+		(at 132.08 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a2caf17-3d0a-49e6-a34d-08c5a09a8101")
 	)
 	(junction
-		(at 170.18 96.52)
+		(at 137.16 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "557b296c-85cd-4a57-8865-0c3763c46e13")
 	)
 	(junction
-		(at 213.36 96.52)
+		(at 180.34 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f996185-a16a-43cf-b4fe-5f34eeb6859a")
 	)
 	(junction
-		(at 116.84 99.06)
+		(at 83.82 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4f9bf2c-f34c-48cf-b3bb-0b078e7b9e50")
 	)
 	(junction
-		(at 104.14 99.06)
+		(at 71.12 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf49753-0b8e-4dad-83d0-afac3915bf5a")
 	)
 	(junction
-		(at 170.18 111.76)
+		(at 137.16 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfb77c37-731e-4675-a3f0-b9fdd15e7044")
 	)
 	(wire
 		(pts
-			(xy 119.38 99.06) (xy 116.84 99.06)
+			(xy 86.36 78.74) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +2178,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 187.96 99.06)
+			(xy 154.94 76.2) (xy 154.94 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +2188,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 170.18 111.76)
+			(xy 132.08 91.44) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1501,7 +2198,17 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 96.52) (xy 228.6 96.52)
+			(xy 55.88 78.74) (xy 66.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d06af0-3191-46ce-a7b3-4de14d869e03")
+	)
+	(wire
+		(pts
+			(xy 193.04 76.2) (xy 195.58 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +2218,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 93.98) (xy 149.86 93.98)
+			(xy 114.3 73.66) (xy 116.84 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1521,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 96.52) (xy 99.06 96.52)
+			(xy 68.58 76.2) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 104.14) (xy 200.66 106.68)
+			(xy 167.64 83.82) (xy 167.64 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 187.96 96.52)
+			(xy 137.16 76.2) (xy 154.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1551,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 116.84 101.6)
+			(xy 83.82 78.74) (xy 83.82 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1561,7 +2268,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 96.52) (xy 241.3 99.06)
+			(xy 208.28 76.2) (xy 208.28 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1571,7 +2278,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 170.18 114.3)
+			(xy 137.16 91.44) (xy 137.16 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1581,7 +2288,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 106.68) (xy 104.14 109.22)
+			(xy 71.12 86.36) (xy 71.12 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1591,7 +2298,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 96.52) (xy 119.38 96.52)
+			(xy 78.74 76.2) (xy 86.36 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +2308,17 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 99.06) (xy 213.36 96.52)
+			(xy 55.88 86.36) (xy 55.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502e513e-6e0c-4b08-96d8-32649b5f91a9")
+	)
+	(wire
+		(pts
+			(xy 180.34 78.74) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1611,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 96.52) (xy 165.1 96.52)
+			(xy 129.54 76.2) (xy 132.08 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 101.6) (xy 104.14 99.06)
+			(xy 71.12 81.28) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1631,7 +2348,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 109.22) (xy 170.18 111.76)
+			(xy 137.16 88.9) (xy 137.16 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1641,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 99.06) (xy 104.14 99.06)
+			(xy 66.04 78.74) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1651,7 +2368,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 104.14) (xy 226.06 106.68)
+			(xy 193.04 83.82) (xy 193.04 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1661,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 96.52) (xy 241.3 96.52)
+			(xy 205.74 76.2) (xy 208.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1671,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 165.1 101.6)
+			(xy 132.08 76.2) (xy 132.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1681,7 +2398,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 106.68) (xy 116.84 109.22)
+			(xy 83.82 86.36) (xy 83.82 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1691,7 +2408,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 149.86 96.52)
+			(xy 116.84 73.66) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1701,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 93.98) (xy 142.24 93.98)
+			(xy 106.68 73.66) (xy 109.22 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1711,7 +2428,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 116.84 99.06)
+			(xy 71.12 78.74) (xy 83.82 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1721,7 +2438,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 99.06) (xy 200.66 96.52)
+			(xy 55.88 81.28) (xy 55.88 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84407f9a-839b-4baa-a028-bf4113309a42")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +2458,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 187.96 106.68)
+			(xy 154.94 83.82) (xy 154.94 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +2468,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 99.06) (xy 139.7 99.06)
+			(xy 109.22 78.74) (xy 106.68 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1751,7 +2478,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 99.06 99.06)
+			(xy 66.04 76.2) (xy 66.04 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1761,7 +2488,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 109.22) (xy 241.3 111.76)
+			(xy 208.28 88.9) (xy 208.28 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 96.52) (xy 200.66 96.52)
+			(xy 154.94 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1781,7 +2508,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 96.52) (xy 170.18 99.06)
+			(xy 137.16 76.2) (xy 137.16 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1791,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 96.52) (xy 213.36 96.52)
+			(xy 167.64 76.2) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1801,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 101.6) (xy 142.24 99.06)
+			(xy 109.22 81.28) (xy 109.22 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1811,7 +2538,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 152.4 96.52)
+			(xy 116.84 76.2) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +2548,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 160.02) (xy 109.22 160.02)
+			(xy 38.1 139.7) (xy 48.26 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1831,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 157.48) (xy 109.22 157.48)
+			(xy 38.1 137.16) (xy 48.26 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1841,7 +2568,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 154.94) (xy 109.22 154.94)
+			(xy 38.1 134.62) (xy 48.26 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1851,7 +2578,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 99.06) (xy 226.06 96.52)
+			(xy 193.04 78.74) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1861,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 106.68) (xy 165.1 111.76)
+			(xy 132.08 86.36) (xy 132.08 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1871,7 +2598,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 124.46) (xy 170.18 127)
+			(xy 137.16 104.14) (xy 137.16 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1881,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 149.86 96.52)
+			(xy 106.68 76.2) (xy 116.84 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1891,7 +2618,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 162.56) (xy 109.22 162.56)
+			(xy 38.1 142.24) (xy 48.26 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +2628,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 96.52) (xy 170.18 96.52)
+			(xy 132.08 76.2) (xy 137.16 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +2638,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 93.98) (xy 119.38 93.98)
+			(xy 81.28 73.66) (xy 86.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +2648,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 96.52) (xy 226.06 96.52)
+			(xy 180.34 76.2) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +2658,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 104.14) (xy 213.36 106.68)
+			(xy 180.34 83.82) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1940,7 +2667,7 @@
 		(uuid "febc09c8-a8bf-4806-8495-c86308a8e198")
 	)
 	(label "FB"
-		(at 167.64 111.76 0)
+		(at 134.62 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1950,7 +2677,7 @@
 		(uuid "078123e9-a988-43f4-b4a1-f134cb26c890")
 	)
 	(label "FB"
-		(at 114.3 93.98 0)
+		(at 81.28 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1960,7 +2687,7 @@
 		(uuid "2b3abec7-72d4-4558-b493-59523baa22f5")
 	)
 	(label "EN"
-		(at 114.3 96.52 0)
+		(at 81.28 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1970,7 +2697,7 @@
 		(uuid "6420a65c-3637-443e-b9e1-acefb5560870")
 	)
 	(label "GND"
-		(at 104.14 160.02 0)
+		(at 43.18 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1980,7 +2707,7 @@
 		(uuid "654276cb-0f32-412e-adb3-a87a9577d83f")
 	)
 	(label "VOUT"
-		(at 193.04 96.52 0)
+		(at 160.02 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1990,7 +2717,7 @@
 		(uuid "65f8cc16-26f1-4009-b41f-bb5547d2d49a")
 	)
 	(label "VIN"
-		(at 104.14 157.48 0)
+		(at 43.18 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2000,7 +2727,7 @@
 		(uuid "7402ff01-9953-4f36-8f35-b463c5780c54")
 	)
 	(label "VIN"
-		(at 104.14 99.06 0)
+		(at 58.42 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2010,7 +2737,7 @@
 		(uuid "99492531-106b-4b54-8121-1d20281bd4b4")
 	)
 	(label "EN"
-		(at 104.14 154.94 0)
+		(at 43.18 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2020,7 +2747,7 @@
 		(uuid "a25b23da-ba64-4bae-8b7a-132dd3e7235e")
 	)
 	(label "VOUT"
-		(at 104.14 162.56 0)
+		(at 43.18 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2030,8 +2757,140 @@
 		(uuid "bc780015-bab7-4747-ab96-3275f154f799")
 	)
 	(symbol
+		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10A105KB8NNNC")
+		(at 55.88 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "047efdca-f4c4-439a-a57e-02d620458c4f")
+		(property "Reference" "C2"
+			(at 53.34 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 53.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+			(at 60.96 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 71.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
+			(at 73.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 81.28 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50 V"
+			(at 53.34 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Temperature Coefficient" "X5R"
+			(at 83.82 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "707ebb73-8ed8-47f6-83d1-8a803a321b8e")
+		)
+		(pin "2"
+			(uuid "10e71125-d6f8-4952-927a-725976164e29")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 226.06 106.68 0)
+		(at 193.04 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2039,7 +2898,7 @@
 		(dnp no)
 		(uuid "07af8a4f-4ca4-4a1f-863e-b65e04174bdb")
 		(property "Reference" "#PWR09"
-			(at 226.06 113.03 0)
+			(at 193.04 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 110.49 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 106.68 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 106.68 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2933,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 106.68 0)
+			(at 193.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2955,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 187.96 101.6 90)
+		(at 154.94 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2105,7 +2964,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aabd1b5-2097-45f1-822b-5bda14cfcc50")
 		(property "Reference" "Cd3"
-			(at 185.42 100.3299 90)
+			(at 152.4 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2973,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 185.42 102.8699 90)
+			(at 152.4 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2982,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 193.04 101.6 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2132,7 +2991,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 195.58 101.6 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +3000,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 203.2 101.6 0)
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2150,7 +3009,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 200.66 101.6 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +3018,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 208.28 101.6 0)
+			(at 175.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +3027,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 205.74 101.6 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +3036,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 198.12 101.6 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +3045,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 213.36 101.6 0)
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +3054,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 210.82 101.6 0)
+			(at 177.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2220,7 +3079,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 111.76 0)
+		(at 208.28 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2228,7 +3087,7 @@
 		(dnp no)
 		(uuid "0cf2ea5a-8f78-4648-8ded-3d79368c4af8")
 		(property "Reference" "#PWR02"
-			(at 241.3 118.11 0)
+			(at 208.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +3096,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 115.57 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +3104,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 111.76 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +3113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 111.76 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +3122,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 111.76 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +3144,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 106.68 0)
+		(at 154.94 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2293,7 +3152,7 @@
 		(dnp no)
 		(uuid "117a591c-f918-4a37-a7b8-d4089523abc4")
 		(property "Reference" "#PWR06"
-			(at 187.96 113.03 0)
+			(at 154.94 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2302,7 +3161,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 110.49 0)
+			(at 154.94 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +3169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 106.68 0)
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +3178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 106.68 0)
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +3187,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 106.68 0)
+			(at 154.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,138 +3209,16 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:YAGEO_RC0603FR-0710KL")
-		(at 233.68 96.52 180)
+		(at 137.16 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15ef21b0-df28-4c3d-acc5-79a2e9ce1760")
-		(property "Reference" "R3"
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 233.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 233.68 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 233.68 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 233.68 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 233.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 233.68 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA"
-			(at 233.68 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
-			(at 233.68 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 233.68 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100 mW"
-			(at 233.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d0eef41-f7bc-4582-8880-4d758e4d8b9b")
-		)
-		(pin "2"
-			(uuid "a803774f-e57a-4cf1-9a52-57f8125c0f11")
-		)
-		(instances
-			(project "SMPS_BUCK_AP6320X"
-				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_lib:YAGEO_RC0603FR-0710KL")
-		(at 170.18 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "17330886-e8e2-47e1-9fc9-6c6df6048418")
 		(property "Reference" "R2"
-			(at 171.45 118.1099 90)
+			(at 138.43 97.7899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +3227,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 171.45 120.6499 90)
+			(at 138.43 100.3299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +3236,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 190.5 119.38 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +3245,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 193.04 119.38 0)
+			(at 160.02 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +3254,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 177.8 119.38 0)
+			(at 144.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +3263,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 175.26 119.38 0)
+			(at 142.24 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +3272,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 180.34 119.38 0)
+			(at 147.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +3281,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA"
-			(at 182.88 119.38 0)
+			(at 149.86 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +3290,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
-			(at 187.96 119.38 0)
+			(at 154.94 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +3299,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 185.42 119.38 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2571,7 +3308,7 @@
 			)
 		)
 		(property "Power" "100 mW"
-			(at 195.58 119.38 0)
+			(at 162.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2596,7 +3333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 106.68 0)
+		(at 167.64 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2604,7 +3341,7 @@
 		(dnp no)
 		(uuid "25225ce5-3643-465d-ac3f-829fda0660ac")
 		(property "Reference" "#PWR07"
-			(at 200.66 113.03 0)
+			(at 167.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2613,7 +3350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 110.49 0)
+			(at 167.64 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2621,7 +3358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 106.68 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +3367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 106.68 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +3376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 106.68 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +3398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 109.22 0)
+		(at 83.82 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2669,7 +3406,7 @@
 		(dnp no)
 		(uuid "271ad870-d352-41f7-9b75-3462d2936303")
 		(property "Reference" "#PWR04"
-			(at 116.84 115.57 0)
+			(at 83.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2678,7 +3415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 113.03 0)
+			(at 83.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +3423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 109.22 0)
+			(at 83.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +3432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 109.22 0)
+			(at 83.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +3441,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 109.22 0)
+			(at 83.82 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,16 +3463,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 104.14 104.14 90)
+		(at 71.12 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2aaf3d19-c606-4e6c-9a58-b0c8028a200e")
 		(property "Reference" "Cd2"
-			(at 101.6 102.8699 90)
+			(at 68.58 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +3480,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 101.6 105.4099 90)
+			(at 68.58 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +3489,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 109.22 104.14 0)
+			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +3498,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 111.76 104.14 0)
+			(at 78.74 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +3507,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 119.38 104.14 0)
+			(at 86.36 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2780,7 +3516,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 116.84 104.14 0)
+			(at 83.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +3525,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 124.46 104.14 0)
+			(at 91.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +3534,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 121.92 104.14 0)
+			(at 88.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2807,7 +3543,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 114.3 104.14 0)
+			(at 81.28 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +3552,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 129.54 104.14 0)
+			(at 96.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2825,12 +3561,12 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 127 104.14 0)
+			(at 68.58 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -2850,7 +3586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 106.68 0)
+		(at 180.34 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2858,7 +3594,7 @@
 		(dnp no)
 		(uuid "34ebbe06-ee2c-48cc-aa39-bf88d49944b6")
 		(property "Reference" "#PWR08"
-			(at 213.36 113.03 0)
+			(at 180.34 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2867,7 +3603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 110.49 0)
+			(at 180.34 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +3611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 106.68 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +3620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 106.68 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2893,7 +3629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 106.68 0)
+			(at 180.34 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,44 +3650,33 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
-		(at 116.84 104.14 90)
+		(lib_id "kicad_lib:YAGEO_RC0603FR-071KL")
+		(at 200.66 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4e7df375-0706-4d22-b278-b3c61de3682e")
-		(property "Reference" "Cb1"
-			(at 114.3 102.8699 90)
+		(uuid "4d5de569-c723-4cf9-be55-f41dafee2df3")
+		(property "Reference" "R3"
+			(at 200.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
-			(at 114.3 105.4099 90)
+		(property "Value" "1 kΩ"
+			(at 200.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 121.92 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 124.46 104.14 0)
+		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
+			(at 200.66 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,8 +3684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 132.08 104.14 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 199.39 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2968,8 +3693,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 129.54 104.14 0)
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 200.66 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,8 +3702,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 137.16 104.14 0)
+		(property "Manufacturer" "YAGEO"
+			(at 200.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2986,8 +3711,8 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
-			(at 134.62 104.14 0)
+		(property "MPN" "RC0603FR-071KL"
+			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,8 +3720,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
-			(at 127 104.14 0)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA"
+			(at 200.66 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3004,8 +3729,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "10 %"
-			(at 142.24 104.14 0)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D"
+			(at 200.66 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3013,8 +3738,8 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10 V"
-			(at 139.7 104.14 0)
+		(property "Tolerance" "1 %"
+			(at 200.66 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,16 +3747,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "07e83994-d1ae-4e52-9b36-742442644b83")
+		(property "Power" "100 mW"
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "860eca24-d8c3-4133-a36a-adc20348fe94")
+			(uuid "cb2481f4-94c7-462a-9893-b68f7279e5f9")
+		)
+		(pin "2"
+			(uuid "5109dd09-44bb-405f-a11e-63e3b0b244b9")
 		)
 		(instances
 			(project "SMPS_BUCK_AP6320X"
 				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "Cb1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3039,7 +3773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 101.6 0)
+		(at 109.22 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3047,7 +3781,7 @@
 		(dnp no)
 		(uuid "67ed8b34-12e5-495c-973c-4ca5c84cc39d")
 		(property "Reference" "#PWR03"
-			(at 142.24 107.95 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,7 +3790,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 105.41 0)
+			(at 109.22 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3064,7 +3798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 101.6 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3073,7 +3807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 101.6 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,7 +3816,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 101.6 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3838,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Lite-On_LTST-C190KFKT")
-		(at 241.3 104.14 90)
+		(at 208.28 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3113,7 +3847,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e72c846-c2a7-46cc-ae04-4b42147cda79")
 		(property "Reference" "D1"
-			(at 247.65 104.14 0)
+			(at 214.63 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +3855,7 @@
 			)
 		)
 		(property "Value" "LTST-C190KFKT"
-			(at 245.11 104.14 0)
+			(at 212.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3863,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Lite-On_LTST-C190KFKT"
-			(at 251.46 104.14 0)
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3872,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0186/LTST-C190KFKT.PDF"
-			(at 248.92 104.14 0)
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3147,7 +3881,7 @@
 			)
 		)
 		(property "Description" "Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 256.54 104.14 0)
+			(at 223.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3890,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On"
-			(at 259.08 104.14 0)
+			(at 226.06 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,7 +3899,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190KFKT"
-			(at 261.62 104.14 0)
+			(at 228.6 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3908,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KFKT/386813"
-			(at 264.16 104.14 0)
+			(at 231.14 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3917,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/LITEON/LTST-C190KFKT?qs=6QHXI9jVcTyVErVIqD1vhg%3D%3D"
-			(at 254 104.14 0)
+			(at 220.98 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,7 +3942,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
-		(at 213.36 101.6 90)
+		(at 180.34 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3217,7 +3951,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f37ea90-10ab-4efb-992f-7fe6102a4eee")
 		(property "Reference" "Cb3"
-			(at 210.82 100.3299 90)
+			(at 177.8 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3226,7 +3960,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 210.82 102.8699 90)
+			(at 177.8 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3235,7 +3969,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 218.44 101.6 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3978,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 220.98 101.6 0)
+			(at 187.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3987,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 228.6 101.6 0)
+			(at 195.58 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3996,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 226.06 101.6 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3271,7 +4005,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 233.68 101.6 0)
+			(at 200.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3280,7 +4014,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
-			(at 231.14 101.6 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +4023,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
-			(at 223.52 101.6 0)
+			(at 190.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3298,7 +4032,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 238.76 101.6 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3307,7 +4041,7 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 236.22 101.6 0)
+			(at 203.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,7 +4066,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 127 0)
+		(at 137.16 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3340,7 +4074,7 @@
 		(dnp no)
 		(uuid "996d03a5-cb22-43d3-b671-5f6801e48097")
 		(property "Reference" "#PWR01"
-			(at 170.18 133.35 0)
+			(at 137.16 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +4083,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 130.81 0)
+			(at 137.16 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3357,7 +4091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 127 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +4100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 127 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +4109,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 127 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3396,8 +4130,255 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_lib:YAGEO_RC0603FR-070RL")
+		(at 137.16 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a361f1b3-6ed0-4c84-a230-3d0f8d0bc585")
+		(property "Reference" "R1"
+			(at 138.43 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0 Ω"
+			(at 138.43 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 162.56 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+			(at 144.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0603FR-070RL"
+			(at 147.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIJ4EMDmBTA9gAgE4GMAMAbHgMwBmWAtHgOx5YA2IAugL5A"
+			(at 149.86 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-070RL?qs=0yPvnVz5%2FmpDQv43TwvCfw%3D%3D"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1 %"
+			(at 152.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100 mW"
+			(at 160.02 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b8bf1f4-6e23-4c54-992e-9541b3fdc55a")
+		)
+		(pin "1"
+			(uuid "a20b8acb-f1f9-4292-bca7-52975a121fff")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_lib:Murata_Electronics_GRM188R6YA106MA73D")
+		(at 83.82 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a997ba78-28f3-4526-ade0-f4477be64e96")
+		(property "Reference" "C1"
+			(at 81.28 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 81.28 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+			(at 88.9 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R6YA106MA73-01A-EN_PDF_CERAMICCAPACITORSMD"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 99.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 96.52 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R6YA106MA73D"
+			(at 104.14 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411"
+			(at 101.6 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20 %"
+			(at 109.22 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "35 V"
+			(at 81.28 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "17e5e09c-9b93-4837-92da-c39126cb8ba2")
+		)
+		(pin "2"
+			(uuid "51fe9ac3-b557-40ee-abc8-3c63f6ea461f")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_lib:Abracon_LLC_ASPI-4030S-6R8M-T")
-		(at 157.48 96.52 0)
+		(at 124.46 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3405,7 +4386,7 @@
 		(dnp no)
 		(uuid "a9efa218-3979-429a-a31e-fc318a856677")
 		(property "Reference" "L1"
-			(at 157.48 93.98 0)
+			(at 124.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3413,7 +4394,7 @@
 			)
 		)
 		(property "Value" "Abracon LLC ASPI-4030S-6R8M-T"
-			(at 157.48 93.98 0)
+			(at 124.46 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3422,7 +4403,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-4030S-6R8M-T"
-			(at 157.48 116.84 0)
+			(at 124.46 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3431,7 +4412,7 @@
 			)
 		)
 		(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-4030S.pdf"
-			(at 157.48 106.68 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3440,7 +4421,7 @@
 			)
 		)
 		(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 1.6 A 90mOhm Nonstandard"
-			(at 157.48 111.76 0)
+			(at 124.46 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +4430,7 @@
 			)
 		)
 		(property "Manufacturer" "Abracon LLC"
-			(at 157.48 114.3 0)
+			(at 124.46 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3458,7 +4439,7 @@
 			)
 		)
 		(property "MPN" "ASPI-4030S-6R8M-T"
-			(at 157.48 101.6 0)
+			(at 124.46 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +4448,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-4030S-6R8M-T/4215209"
-			(at 157.48 109.22 0)
+			(at 124.46 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +4457,7 @@
 			)
 		)
 		(property "Mouser" "https://ar.mouser.com/ProductDetail/ABRACON/ASPI-4030S-6R8M-T?qs=BLmuIjeT3qE8jeo8oUT4Iw%3D%3D"
-			(at 157.48 104.14 0)
+			(at 124.46 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +4482,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
-		(at 226.06 101.6 90)
+		(at 193.04 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3510,7 +4491,7 @@
 		(fields_autoplaced yes)
 		(uuid "af463d1c-0f6f-474c-ab54-6b79069fd4d8")
 		(property "Reference" "Cb4"
-			(at 223.52 100.3299 90)
+			(at 190.5 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +4500,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 223.52 102.8699 90)
+			(at 190.5 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +4509,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 231.14 101.6 0)
+			(at 198.12 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +4518,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 233.68 101.6 0)
+			(at 200.66 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,7 +4527,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 241.3 101.6 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +4536,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 238.76 101.6 0)
+			(at 205.74 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +4545,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 246.38 101.6 0)
+			(at 213.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3573,7 +4554,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
-			(at 243.84 101.6 0)
+			(at 210.82 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,7 +4563,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
-			(at 236.22 101.6 0)
+			(at 203.2 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3591,7 +4572,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 251.46 101.6 0)
+			(at 218.44 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +4581,7 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 248.92 101.6 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,131 +4606,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:YAGEO_RC0603FR-0710KL")
-		(at 170.18 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b6270c84-613c-4a14-9250-3e635228c2c2")
-		(property "Reference" "R1"
-			(at 171.45 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10 kΩ"
-			(at 171.45 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 190.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 193.04 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 177.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 175.26 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 180.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA"
-			(at 182.88 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
-			(at 187.96 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1 %"
-			(at 185.42 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100 mW"
-			(at 195.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab5af6dd-12fe-492a-8eca-4a100f0f240b")
-		)
-		(pin "2"
-			(uuid "0969a254-55cb-4c76-994f-4a1bf9ebf29d")
-		)
-		(instances
-			(project "SMPS_BUCK_AP6320X"
-				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_lib:YAGEO_RC0603FR-0710KL")
-		(at 106.68 96.52 180)
+		(at 73.66 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3758,7 +4615,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3828871-f0cf-4cae-9fa8-7b0bb257f956")
 		(property "Reference" "R4"
-			(at 106.68 91.44 0)
+			(at 73.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +4623,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 106.68 93.98 0)
+			(at 73.66 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4631,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 106.68 76.2 0)
+			(at 73.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +4640,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 106.68 73.66 0)
+			(at 73.66 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +4649,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 106.68 88.9 0)
+			(at 73.66 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +4658,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 106.68 91.44 0)
+			(at 73.66 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +4667,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 106.68 86.36 0)
+			(at 73.66 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +4676,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA"
-			(at 106.68 83.82 0)
+			(at 73.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +4685,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
-			(at 106.68 78.74 0)
+			(at 73.66 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,7 +4694,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 106.68 81.28 0)
+			(at 73.66 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +4703,7 @@
 			)
 		)
 		(property "Power" "100 mW"
-			(at 106.68 71.12 0)
+			(at 73.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,7 +4728,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 109.22 0)
+		(at 71.12 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3879,7 +4736,7 @@
 		(dnp no)
 		(uuid "c438e79f-49da-449a-beff-2e71ef8f9a4a")
 		(property "Reference" "#PWR05"
-			(at 104.14 115.57 0)
+			(at 71.12 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +4745,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 113.03 0)
+			(at 71.12 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3896,7 +4753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 109.22 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3905,7 +4762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 109.22 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,7 +4771,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 109.22 0)
+			(at 71.12 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3936,15 +4793,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Diodes_Incorporated_AP63205WU-7")
-		(at 129.54 96.52 0)
+		(at 96.52 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cef49bc4-a5b3-4223-bac8-4fcef23faf1c")
-		(property "Reference" "U2"
-			(at 129.54 87.63 0)
+		(property "Reference" "U1"
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3952,7 +4809,7 @@
 			)
 		)
 		(property "Value" "AP63205WU-7"
-			(at 129.54 102.87 0)
+			(at 96.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4817,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:TSOT23-6"
-			(at 129.54 104.14 0)
+			(at 96.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 129.54 111.76 0)
+			(at 96.52 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +4835,7 @@
 			)
 		)
 		(property "Description" "Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A TSOT-23-6 Thin, TSOT-23-6"
-			(at 129.54 106.68 0)
+			(at 96.52 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4844,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 129.54 121.92 0)
+			(at 96.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +4853,7 @@
 			)
 		)
 		(property "MPN" "AP63205WU-7"
-			(at 129.54 109.22 0)
+			(at 96.52 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4862,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP63205WU-7/9858424?s=N4IgTCBcDaIIIAUBsBmMAGArAdQKoFoB2EAXQF8g"
-			(at 129.54 114.3 0)
+			(at 96.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4871,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP63205WU-7?qs=u16ybLDytRZtkj8PzdWCOw%3D%3D"
-			(at 129.54 116.84 0)
+			(at 96.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4880,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C2071056.html?s_z=n_q_ap63205&spm=wm.fly.bg.0.xh&lcsc_vid=FlkMVAJeT1hbVgdUQlJdUlECFgNYUFwDFVkLAgdXEVMxVlNRTlVeX1VXQ1ZZVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 129.54 119.38 0)
+			(at 96.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4909,7 @@
 		(instances
 			(project "SMPS_BUCK_AP6320X"
 				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4060,7 +4917,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 165.1 104.14 90)
+		(at 132.08 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4069,7 +4926,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfa984c0-d5f0-49b4-bc97-efcb38c83bc3")
 		(property "Reference" "Cd4"
-			(at 162.56 102.8699 90)
+			(at 129.54 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4935,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 162.56 105.4099 90)
+			(at 129.54 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +4944,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 170.18 104.14 0)
+			(at 137.16 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4953,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 172.72 104.14 0)
+			(at 139.7 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4962,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 180.34 104.14 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4971,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 177.8 104.14 0)
+			(at 144.78 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4980,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 185.42 104.14 0)
+			(at 152.4 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4132,7 +4989,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 182.88 104.14 0)
+			(at 149.86 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4141,7 +4998,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 175.26 104.14 0)
+			(at 142.24 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4150,7 +5007,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 190.5 104.14 0)
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4159,7 +5016,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 187.96 104.14 0)
+			(at 154.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,17 +5040,81 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 144.78 93.98 0)
+		(lib_id "power:GND")
+		(at 55.88 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
+		(uuid "de686f23-0c9a-46ef-96f1-6012f299691f")
+		(property "Reference" "#PWR010"
+			(at 55.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a6c4aa2-06fd-48ed-9174-df7b30960e5a")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
+		(at 111.76 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "f1c75fae-9e00-4a73-a672-12265fd2e3fc")
 		(property "Reference" "Cd1"
-			(at 144.78 87.63 0)
+			(at 111.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +5122,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 144.78 90.17 0)
+			(at 111.76 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4209,7 +5130,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 144.78 99.06 0)
+			(at 111.76 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4218,7 +5139,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 144.78 101.6 0)
+			(at 111.76 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +5148,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 144.78 109.22 0)
+			(at 111.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4236,7 +5157,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 144.78 106.68 0)
+			(at 111.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4245,7 +5166,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 144.78 114.3 0)
+			(at 111.76 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,7 +5175,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 144.78 111.76 0)
+			(at 111.76 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +5184,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 144.78 104.14 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +5193,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 144.78 119.38 0)
+			(at 111.76 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +5202,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 144.78 116.84 0)
+			(at 111.76 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,16 +5227,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Würth_Elektronik_61300411121")
-		(at 93.98 154.94 0)
+		(at 33.02 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc940230-089f-46b1-b254-17d4a1ef12f2")
 		(property "Reference" "J1"
-			(at 93.98 147.32 0)
+			(at 33.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +5243,7 @@
 			)
 		)
 		(property "Value" "61300411121"
-			(at 93.98 149.86 0)
+			(at 29.21 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +5251,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Würth_Elektronik_61300411121"
-			(at 93.98 175.26 0)
+			(at 33.02 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +5260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 177.8 0)
+			(at 33.02 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +5269,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 182.88 0)
+			(at 33.02 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +5278,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 93.98 180.34 0)
+			(at 33.02 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +5287,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 93.98 190.5 0)
+			(at 33.02 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +5296,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 93.98 185.42 0)
+			(at 33.02 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4385,7 +5305,7 @@
 			)
 		)
 		(property "MPN" "61300411121"
-			(at 93.98 187.96 0)
+			(at 33.02 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +5336,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
-		(at 200.66 101.6 90)
+		(at 167.64 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4425,7 +5345,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdf8328f-68e2-419c-8f2f-a9eea2d9306f")
 		(property "Reference" "Cb2"
-			(at 198.12 100.3299 90)
+			(at 165.1 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4434,7 +5354,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 198.12 102.8699 90)
+			(at 165.1 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +5363,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 205.74 101.6 0)
+			(at 172.72 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +5372,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 208.28 101.6 0)
+			(at 175.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4461,7 +5381,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 215.9 101.6 0)
+			(at 182.88 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4470,7 +5390,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 213.36 101.6 0)
+			(at 180.34 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4479,7 +5399,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 220.98 101.6 0)
+			(at 187.96 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4488,7 +5408,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
-			(at 218.44 101.6 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4497,7 +5417,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
-			(at 210.82 101.6 0)
+			(at 177.8 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4506,7 +5426,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 226.06 101.6 0)
+			(at 193.04 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4515,7 +5435,7 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 223.52 101.6 0)
+			(at 190.5 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
