@@ -7,7 +7,7 @@
 	(title_block
 		(title "AP6320X BUCK SMPS")
 		(date "2026-06-24")
-		(rev "1.0")
+		(rev "${REV}")
 		(comment 1 "Agustin Rovero")
 	)
 	(lib_symbols
