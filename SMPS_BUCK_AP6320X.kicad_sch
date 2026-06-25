@@ -4,8 +4,14 @@
 	(generator_version "9.0")
 	(uuid "713efe2c-a4ec-4b02-a518-a72d7ba8ed31")
 	(paper "A4")
+	(title_block
+		(title "AP6320X BUCK SMPS")
+		(date "2026-06-24")
+		(rev "1.0")
+		(comment 1 "Agustin Rovero")
+	)
 	(lib_symbols
-		(symbol "kicad_lib:Abracon_LLC_ASPI-4030S-6R8M-T"
+		(symbol "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -23,7 +29,7 @@
 					)
 				)
 			)
-			(property "Value" "Abracon LLC ASPI-4030S-6R8M-T"
+			(property "Value" "Abracon LLC ASPI-0628-6R8M-T1"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -31,7 +37,7 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-4030S-6R8M-T"
+			(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -40,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-4030S.pdf"
+			(property "Datasheet" "https://abracon.com/Magnetics/new/ASPI-0628.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -49,7 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 1.6 A 90mOhm Nonstandard"
+			(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 2.2 A 52mOhm Nonstandard"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -67,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ASPI-4030S-6R8M-T"
+			(property "MPN" "ASPI-0628-6R8M-T1"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -76,7 +82,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-4030S-6R8M-T/4215209"
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-0628-6R8M-T1/5043509"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -85,7 +91,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "https://ar.mouser.com/ProductDetail/ABRACON/ASPI-4030S-6R8M-T?qs=BLmuIjeT3qE8jeo8oUT4Iw%3D%3D"
+			(property "Mouser" "https://www.mouser.com/ProductDetail/ABRACON/ASPI-0628-6R8M-T1?qs=7Oetya%252B4D2DdgyU7oRZaKg%3D%3D"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -94,7 +100,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Abracon_LLC_ASPI-4030S-6R8M-T_0_1"
+			(symbol "Abracon_LLC_ASPI-0628-6R8M-T1_0_1"
 				(arc
 					(start -2.54 0)
 					(mid -1.905 0.635)
@@ -144,7 +150,7 @@
 					)
 				)
 			)
-			(symbol "Abracon_LLC_ASPI-4030S-6R8M-T_1_1"
+			(symbol "Abracon_LLC_ASPI-0628-6R8M-T1_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1315,6 +1321,188 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kicad_lib:Samsung_Electro-Mechanics_CL10C101JB8NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100 pF"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "CL10C101JB8NNNC"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10C101JB8NNNC/3886666"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10C101JB8NNNC?qs=349EhDEZ59pXXooLigsK%2FQ%3D%3D"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "5 %"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50 V"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "C0G, NP0"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Samsung_Electro-Mechanics_CL10C101JB8NNNC_0_1"
+				(polyline
+					(pts
+						(xy -0.381 1.905) (xy -0.381 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 1.905) (xy 0.381 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Samsung_Electro-Mechanics_CL10C101JB8NNNC_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.159)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.159)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "kicad_lib:Würth_Elektronik_61300411121"
 			(pin_numbers
 				(hide yes)
@@ -2077,8 +2265,8 @@
 		)
 	)
 	(rectangle
-		(start 45.72 63.5)
-		(end 218.44 114.3)
+		(start 10.16 10.16)
+		(end 195.58 60.96)
 		(stroke
 			(width 0.762)
 			(type default)
@@ -2089,8 +2277,8 @@
 		(uuid 693995d2-b237-4f21-90b1-25a8cd4861e7)
 	)
 	(rectangle
-		(start 25.4 127)
-		(end 50.8 147.32)
+		(start 10.16 63.5)
+		(end 35.56 83.82)
 		(stroke
 			(width 0.762)
 			(type default)
@@ -2101,74 +2289,80 @@
 		(uuid 990c008f-6bdb-45ce-930e-f85a06d5b28c)
 	)
 	(junction
-		(at 66.04 78.74)
+		(at 30.48 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "099bb700-00f0-49ef-abc5-e0a06599e099")
 	)
 	(junction
-		(at 167.64 76.2)
+		(at 144.78 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1447b7ff-1ec5-42c0-b587-f82d3b609639")
 	)
 	(junction
-		(at 154.94 76.2)
+		(at 119.38 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "252089de-9b27-465b-be2d-1522a006eae4")
 	)
 	(junction
-		(at 193.04 76.2)
+		(at 170.18 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f611402-efaa-4a0d-8a30-b294472a49a7")
 	)
 	(junction
-		(at 116.84 76.2)
+		(at 81.28 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "381da266-f105-49db-a672-badca4d2781c")
 	)
 	(junction
-		(at 132.08 76.2)
+		(at 96.52 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a2caf17-3d0a-49e6-a34d-08c5a09a8101")
 	)
 	(junction
-		(at 137.16 76.2)
+		(at 101.6 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "557b296c-85cd-4a57-8865-0c3763c46e13")
 	)
 	(junction
-		(at 180.34 76.2)
+		(at 157.48 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f996185-a16a-43cf-b4fe-5f34eeb6859a")
 	)
 	(junction
-		(at 83.82 78.74)
+		(at 48.26 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4f9bf2c-f34c-48cf-b3bb-0b078e7b9e50")
 	)
 	(junction
-		(at 71.12 78.74)
+		(at 35.56 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdf49753-0b8e-4dad-83d0-afac3915bf5a")
 	)
 	(junction
-		(at 137.16 91.44)
+		(at 101.6 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfb77c37-731e-4675-a3f0-b9fdd15e7044")
 	)
+	(junction
+		(at 132.08 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed59f09d-6a8c-46c6-a8f7-d1d239f6cb3c")
+	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 83.82 78.74)
+			(xy 50.8 25.4) (xy 48.26 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2178,7 +2372,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 154.94 78.74)
+			(xy 119.38 22.86) (xy 119.38 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2188,7 +2382,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 91.44) (xy 137.16 91.44)
+			(xy 96.52 38.1) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2198,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 78.74) (xy 66.04 78.74)
+			(xy 20.32 25.4) (xy 30.48 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2208,7 +2402,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 76.2) (xy 195.58 76.2)
+			(xy 170.18 22.86) (xy 172.72 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2218,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 116.84 73.66)
+			(xy 78.74 20.32) (xy 81.28 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 66.04 76.2)
+			(xy 33.02 22.86) (xy 30.48 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2238,7 +2432,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 83.82) (xy 167.64 86.36)
+			(xy 144.78 30.48) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2248,7 +2442,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 154.94 76.2)
+			(xy 101.6 22.86) (xy 119.38 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2258,7 +2452,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 78.74) (xy 83.82 81.28)
+			(xy 48.26 25.4) (xy 48.26 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2268,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 76.2) (xy 208.28 78.74)
+			(xy 185.42 22.86) (xy 185.42 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2278,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 91.44) (xy 137.16 93.98)
+			(xy 101.6 38.1) (xy 101.6 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2288,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 86.36) (xy 71.12 88.9)
+			(xy 35.56 33.02) (xy 35.56 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2298,7 +2492,17 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 76.2) (xy 86.36 76.2)
+			(xy 132.08 30.48) (xy 132.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471c53fc-2c8a-43b7-9584-403a197a531b")
+	)
+	(wire
+		(pts
+			(xy 43.18 22.86) (xy 50.8 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2308,7 +2512,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 86.36) (xy 55.88 88.9)
+			(xy 20.32 33.02) (xy 20.32 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2318,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 180.34 76.2)
+			(xy 157.48 25.4) (xy 157.48 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2328,7 +2532,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 76.2) (xy 132.08 76.2)
+			(xy 93.98 22.86) (xy 96.52 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2338,7 +2542,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 71.12 78.74)
+			(xy 35.56 27.94) (xy 35.56 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2348,7 +2552,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 88.9) (xy 137.16 91.44)
+			(xy 101.6 35.56) (xy 101.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2358,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 71.12 78.74)
+			(xy 30.48 25.4) (xy 35.56 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2368,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 193.04 86.36)
+			(xy 170.18 30.48) (xy 170.18 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2378,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 76.2) (xy 208.28 76.2)
+			(xy 182.88 22.86) (xy 185.42 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 76.2) (xy 132.08 81.28)
+			(xy 96.52 22.86) (xy 96.52 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2398,7 +2602,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 86.36) (xy 83.82 88.9)
+			(xy 48.26 33.02) (xy 48.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2408,7 +2612,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 73.66) (xy 116.84 76.2)
+			(xy 81.28 20.32) (xy 81.28 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2418,7 +2622,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 109.22 73.66)
+			(xy 71.12 20.32) (xy 73.66 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2428,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 78.74) (xy 83.82 78.74)
+			(xy 35.56 25.4) (xy 48.26 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2438,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 81.28) (xy 55.88 78.74)
+			(xy 20.32 27.94) (xy 20.32 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2448,7 +2652,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 78.74) (xy 167.64 76.2)
+			(xy 144.78 25.4) (xy 144.78 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2458,7 +2662,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 86.36)
+			(xy 132.08 22.86) (xy 132.08 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d11c904-3215-4718-81d1-5eeeff0997b4")
+	)
+	(wire
+		(pts
+			(xy 119.38 30.48) (xy 119.38 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2682,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 78.74) (xy 106.68 78.74)
+			(xy 132.08 22.86) (xy 144.78 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99ace435-a5fc-4a33-80de-78aee8170fcb")
+	)
+	(wire
+		(pts
+			(xy 73.66 25.4) (xy 71.12 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2478,7 +2702,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 76.2) (xy 66.04 78.74)
+			(xy 30.48 22.86) (xy 30.48 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2712,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 88.9) (xy 208.28 91.44)
+			(xy 185.42 35.56) (xy 185.42 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2722,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 76.2) (xy 167.64 76.2)
+			(xy 119.38 22.86) (xy 132.08 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2508,7 +2732,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 76.2) (xy 137.16 78.74)
+			(xy 101.6 22.86) (xy 101.6 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2518,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 180.34 76.2)
+			(xy 144.78 22.86) (xy 157.48 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2528,7 +2752,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 81.28) (xy 109.22 78.74)
+			(xy 73.66 27.94) (xy 73.66 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 76.2) (xy 119.38 76.2)
+			(xy 81.28 22.86) (xy 83.82 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2548,7 +2772,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 139.7) (xy 48.26 139.7)
+			(xy 22.86 76.2) (xy 33.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2558,7 +2782,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 137.16) (xy 48.26 137.16)
+			(xy 22.86 73.66) (xy 33.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2568,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 134.62) (xy 48.26 134.62)
+			(xy 22.86 71.12) (xy 33.02 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2578,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 78.74) (xy 193.04 76.2)
+			(xy 170.18 25.4) (xy 170.18 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 132.08 91.44)
+			(xy 96.52 33.02) (xy 96.52 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2598,7 +2822,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 137.16 106.68)
+			(xy 101.6 50.8) (xy 101.6 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2608,7 +2832,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 116.84 76.2)
+			(xy 71.12 22.86) (xy 81.28 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2618,7 +2842,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 142.24) (xy 48.26 142.24)
+			(xy 22.86 78.74) (xy 33.02 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2628,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 76.2) (xy 137.16 76.2)
+			(xy 96.52 22.86) (xy 101.6 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2638,7 +2862,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 86.36 73.66)
+			(xy 45.72 20.32) (xy 50.8 20.32)
 		)
 		(stroke
 			(width 0)
@@ -2648,7 +2872,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 76.2) (xy 193.04 76.2)
+			(xy 157.48 22.86) (xy 170.18 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2658,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 180.34 86.36)
+			(xy 157.48 30.48) (xy 157.48 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2667,7 +2891,7 @@
 		(uuid "febc09c8-a8bf-4806-8495-c86308a8e198")
 	)
 	(label "FB"
-		(at 134.62 91.44 0)
+		(at 99.06 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2677,7 +2901,7 @@
 		(uuid "078123e9-a988-43f4-b4a1-f134cb26c890")
 	)
 	(label "FB"
-		(at 81.28 73.66 0)
+		(at 45.72 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2687,7 +2911,7 @@
 		(uuid "2b3abec7-72d4-4558-b493-59523baa22f5")
 	)
 	(label "EN"
-		(at 81.28 76.2 0)
+		(at 45.72 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2697,17 +2921,17 @@
 		(uuid "6420a65c-3637-443e-b9e1-acefb5560870")
 	)
 	(label "GND"
-		(at 43.18 139.7 0)
+		(at 33.02 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "654276cb-0f32-412e-adb3-a87a9577d83f")
 	)
 	(label "VOUT"
-		(at 160.02 76.2 0)
+		(at 137.16 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2717,17 +2941,17 @@
 		(uuid "65f8cc16-26f1-4009-b41f-bb5547d2d49a")
 	)
 	(label "VIN"
-		(at 43.18 137.16 0)
+		(at 33.02 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7402ff01-9953-4f36-8f35-b463c5780c54")
 	)
 	(label "VIN"
-		(at 58.42 78.74 0)
+		(at 22.86 25.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2737,36 +2961,36 @@
 		(uuid "99492531-106b-4b54-8121-1d20281bd4b4")
 	)
 	(label "EN"
-		(at 43.18 134.62 0)
+		(at 33.02 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "a25b23da-ba64-4bae-8b7a-132dd3e7235e")
 	)
 	(label "VOUT"
-		(at 43.18 142.24 0)
+		(at 33.02 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bc780015-bab7-4747-ab96-3275f154f799")
 	)
 	(symbol
 		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10A105KB8NNNC")
-		(at 55.88 83.82 90)
+		(at 20.32 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "047efdca-f4c4-439a-a57e-02d620458c4f")
-		(property "Reference" "C2"
-			(at 53.34 81.28 90)
+		(property "Reference" "Ce1"
+			(at 17.78 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2775,7 +2999,7 @@
 			)
 		)
 		(property "Value" "1 uF"
-			(at 53.34 83.82 90)
+			(at 17.78 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +3008,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 60.96 83.82 0)
+			(at 25.4 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/658/CL10A105KB8NNNC_Spec.pdf"
-			(at 63.5 83.82 0)
+			(at 27.94 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +3026,7 @@
 			)
 		)
 		(property "Description" "1 µF ±10% 50V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 71.12 83.82 0)
+			(at 35.56 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +3035,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 68.58 83.82 0)
+			(at 33.02 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +3044,7 @@
 			)
 		)
 		(property "MPN" "CL10A105KB8NNNC"
-			(at 76.2 83.82 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +3053,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10A105KB8NNNC/3887518"
-			(at 73.66 83.82 0)
+			(at 38.1 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +3062,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A105KB8NNNC?qs=ktYoCbbtCSJz4pFCLWXd5g%3D%3D"
-			(at 66.04 83.82 0)
+			(at 30.48 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +3071,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 81.28 83.82 0)
+			(at 45.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +3080,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 53.34 86.36 90)
+			(at 17.78 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +3089,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X5R"
-			(at 83.82 83.82 0)
+			(at 48.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2882,7 +3106,7 @@
 		(instances
 			(project "SMPS_BUCK_AP6320X"
 				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "C2")
+					(reference "Ce1")
 					(unit 1)
 				)
 			)
@@ -2890,7 +3114,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 86.36 0)
+		(at 170.18 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2898,7 +3122,7 @@
 		(dnp no)
 		(uuid "07af8a4f-4ca4-4a1f-863e-b65e04174bdb")
 		(property "Reference" "#PWR09"
-			(at 193.04 92.71 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3131,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 90.17 0)
+			(at 170.18 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 86.36 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 86.36 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3157,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 86.36 0)
+			(at 170.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,16 +3179,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 154.94 81.28 90)
+		(at 119.38 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0aabd1b5-2097-45f1-822b-5bda14cfcc50")
 		(property "Reference" "Cd3"
-			(at 152.4 80.0099 90)
+			(at 116.84 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +3196,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 152.4 82.5499 90)
+			(at 116.84 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2982,7 +3205,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 160.02 81.28 0)
+			(at 124.46 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3214,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 162.56 81.28 0)
+			(at 127 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3223,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 170.18 81.28 0)
+			(at 134.62 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3232,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 167.64 81.28 0)
+			(at 132.08 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3241,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 175.26 81.28 0)
+			(at 139.7 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3027,7 +3250,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 172.72 81.28 0)
+			(at 137.16 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,7 +3259,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 165.1 81.28 0)
+			(at 129.54 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3045,7 +3268,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 180.34 81.28 0)
+			(at 144.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,12 +3277,12 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 177.8 81.28 0)
+			(at 116.84 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -3079,7 +3302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 91.44 0)
+		(at 185.42 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3087,7 +3310,7 @@
 		(dnp no)
 		(uuid "0cf2ea5a-8f78-4648-8ded-3d79368c4af8")
 		(property "Reference" "#PWR02"
-			(at 208.28 97.79 0)
+			(at 185.42 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,7 +3319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 95.25 0)
+			(at 185.42 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 91.44 0)
+			(at 185.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,7 +3336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 91.44 0)
+			(at 185.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3122,7 +3345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 91.44 0)
+			(at 185.42 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3367,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 86.36 0)
+		(at 119.38 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3152,7 +3375,7 @@
 		(dnp no)
 		(uuid "117a591c-f918-4a37-a7b8-d4089523abc4")
 		(property "Reference" "#PWR06"
-			(at 154.94 92.71 0)
+			(at 119.38 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 90.17 0)
+			(at 119.38 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 86.36 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 86.36 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3187,7 +3410,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 86.36 0)
+			(at 119.38 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3432,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:YAGEO_RC0603FR-0710KL")
-		(at 137.16 99.06 90)
+		(at 101.6 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3218,7 +3441,7 @@
 		(fields_autoplaced yes)
 		(uuid "17330886-e8e2-47e1-9fc9-6c6df6048418")
 		(property "Reference" "R2"
-			(at 138.43 97.7899 90)
+			(at 102.87 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3450,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 138.43 100.3299 90)
+			(at 102.87 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3459,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 157.48 99.06 0)
+			(at 121.92 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3468,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 160.02 99.06 0)
+			(at 124.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3254,7 +3477,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 144.78 99.06 0)
+			(at 109.22 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3263,7 +3486,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 142.24 99.06 0)
+			(at 106.68 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3272,7 +3495,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 147.32 99.06 0)
+			(at 111.76 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3281,7 +3504,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA"
-			(at 149.86 99.06 0)
+			(at 114.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3290,7 +3513,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
-			(at 154.94 99.06 0)
+			(at 119.38 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3299,7 +3522,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 152.4 99.06 0)
+			(at 116.84 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3531,7 @@
 			)
 		)
 		(property "Power" "100 mW"
-			(at 162.56 99.06 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,8 +3555,131 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
+		(at 170.18 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "237438d2-63ff-4c09-a852-d0bc94a064ae")
+		(property "Reference" "Cb3"
+			(at 167.64 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 167.64 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+			(at 175.26 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
+			(at 177.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 185.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
+			(at 187.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
+			(at 180.34 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10 %"
+			(at 195.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10 V"
+			(at 167.64 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "a56e9acf-4743-4166-ab9b-047af76501cf")
+		)
+		(pin "1"
+			(uuid "e3ee5041-cb95-401b-83f8-42e9a5ee129d")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "Cb3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 167.64 86.36 0)
+		(at 144.78 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3341,7 +3687,7 @@
 		(dnp no)
 		(uuid "25225ce5-3643-465d-ac3f-829fda0660ac")
 		(property "Reference" "#PWR07"
-			(at 167.64 92.71 0)
+			(at 144.78 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3350,7 +3696,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 90.17 0)
+			(at 144.78 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +3704,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 86.36 0)
+			(at 144.78 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3367,7 +3713,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 86.36 0)
+			(at 144.78 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +3722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 86.36 0)
+			(at 144.78 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3398,7 +3744,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 88.9 0)
+		(at 48.26 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3406,7 +3752,7 @@
 		(dnp no)
 		(uuid "271ad870-d352-41f7-9b75-3462d2936303")
 		(property "Reference" "#PWR04"
-			(at 83.82 95.25 0)
+			(at 48.26 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,7 +3761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 92.71 0)
+			(at 48.26 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,7 +3769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 88.9 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,7 +3778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 88.9 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,7 +3787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 88.9 0)
+			(at 48.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +3809,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 71.12 83.82 90)
+		(at 35.56 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3471,7 +3817,7 @@
 		(dnp no)
 		(uuid "2aaf3d19-c606-4e6c-9a58-b0c8028a200e")
 		(property "Reference" "Cd2"
-			(at 68.58 81.28 90)
+			(at 33.02 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +3826,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 68.58 83.82 90)
+			(at 33.02 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +3835,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 76.2 83.82 0)
+			(at 40.64 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3844,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 78.74 83.82 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3853,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 86.36 83.82 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3862,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 83.82 83.82 0)
+			(at 48.26 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,7 +3871,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 91.44 83.82 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,7 +3880,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 88.9 83.82 0)
+			(at 53.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3543,7 +3889,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 81.28 83.82 0)
+			(at 45.72 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3552,7 +3898,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 96.52 83.82 0)
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3907,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 68.58 86.36 90)
+			(at 33.02 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3586,7 +3932,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 86.36 0)
+		(at 157.48 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3594,7 +3940,7 @@
 		(dnp no)
 		(uuid "34ebbe06-ee2c-48cc-aa39-bf88d49944b6")
 		(property "Reference" "#PWR08"
-			(at 180.34 92.71 0)
+			(at 157.48 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3603,7 +3949,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 90.17 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +3957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 86.36 0)
+			(at 157.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 86.36 0)
+			(at 157.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3629,7 +3975,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 86.36 0)
+			(at 157.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3650,8 +3996,141 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10C101JB8NNNC")
+		(at 96.52 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "4026d6b0-3f9c-4b24-baad-cf730acd6ec1")
+		(property "Reference" "Cf1"
+			(at 93.98 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 pF"
+			(at 93.98 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10C101JB8NNNC_Spec.pdf"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 109.22 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10C101JB8NNNC"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10C101JB8NNNC/3886666"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10C101JB8NNNC?qs=349EhDEZ59pXXooLigsK%2FQ%3D%3D"
+			(at 106.68 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5 %"
+			(at 121.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50 V"
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "C0G, NP0"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f0bed7c-c49e-4a07-a34c-0f1fd66d8852")
+		)
+		(pin "1"
+			(uuid "c50402c7-82bb-4610-a7e0-1f9244768d68")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "Cf1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_lib:YAGEO_RC0603FR-071KL")
-		(at 200.66 76.2 0)
+		(at 177.8 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3660,7 +4139,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d5de569-c723-4cf9-be55-f41dafee2df3")
 		(property "Reference" "R3"
-			(at 200.66 71.12 0)
+			(at 177.8 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3668,7 +4147,7 @@
 			)
 		)
 		(property "Value" "1 kΩ"
-			(at 200.66 73.66 0)
+			(at 177.8 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +4155,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 200.66 96.52 0)
+			(at 177.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3685,7 +4164,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 199.39 101.6 0)
+			(at 176.53 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +4173,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 200.66 83.82 0)
+			(at 177.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3703,7 +4182,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 200.66 81.28 0)
+			(at 177.8 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +4191,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-071KL"
-			(at 200.66 86.36 0)
+			(at 177.8 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +4200,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-071KL/726843?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIwDSAMiALoC%2BQA"
-			(at 200.66 88.9 0)
+			(at 177.8 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +4209,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-071KL?qs=VU8sRB4EgwApHsk4rF%2F3zg%3D%3D"
-			(at 200.66 93.98 0)
+			(at 177.8 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +4218,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 200.66 91.44 0)
+			(at 177.8 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +4227,7 @@
 			)
 		)
 		(property "Power" "100 mW"
-			(at 200.66 99.06 0)
+			(at 177.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3773,7 +4252,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 81.28 0)
+		(at 73.66 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3781,7 +4260,7 @@
 		(dnp no)
 		(uuid "67ed8b34-12e5-495c-973c-4ca5c84cc39d")
 		(property "Reference" "#PWR03"
-			(at 109.22 87.63 0)
+			(at 73.66 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3790,7 +4269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 85.09 0)
+			(at 73.66 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 81.28 0)
+			(at 73.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3807,7 +4286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 81.28 0)
+			(at 73.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3816,7 +4295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 81.28 0)
+			(at 73.66 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,8 +4316,131 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
+		(at 132.08 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6846f4e7-7f6b-4714-827b-b34a0d739e46")
+		(property "Reference" "Cd4"
+			(at 129.54 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 129.54 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
+			(at 137.16 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
+			(at 152.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
+			(at 149.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
+			(at 142.24 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "5 %"
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50 V"
+			(at 129.54 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2"
+			(uuid "adb20812-f5b5-4822-9a2a-e4e43bbfc4c8")
+		)
+		(pin "1"
+			(uuid "4a721df5-46f2-40ec-ad38-b83c3cc149a5")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "Cd4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_lib:Lite-On_LTST-C190KFKT")
-		(at 208.28 83.82 90)
+		(at 185.42 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3847,7 +4449,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e72c846-c2a7-46cc-ae04-4b42147cda79")
 		(property "Reference" "D1"
-			(at 214.63 83.82 0)
+			(at 191.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +4457,7 @@
 			)
 		)
 		(property "Value" "LTST-C190KFKT"
-			(at 212.09 83.82 0)
+			(at 189.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3863,7 +4465,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Lite-On_LTST-C190KFKT"
-			(at 218.44 83.82 0)
+			(at 195.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3872,7 +4474,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS-22-99-0186/LTST-C190KFKT.PDF"
-			(at 215.9 83.82 0)
+			(at 193.04 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +4483,7 @@
 			)
 		)
 		(property "Description" "Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
-			(at 223.52 83.82 0)
+			(at 200.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3890,7 +4492,7 @@
 			)
 		)
 		(property "Manufacturer" "Lite-On"
-			(at 226.06 83.82 0)
+			(at 203.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3899,7 +4501,7 @@
 			)
 		)
 		(property "MPN" "LTST-C190KFKT"
-			(at 228.6 83.82 0)
+			(at 205.74 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,7 +4510,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/liteon/LTST-C190KFKT/386813"
-			(at 231.14 83.82 0)
+			(at 208.28 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +4519,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/LITEON/LTST-C190KFKT?qs=6QHXI9jVcTyVErVIqD1vhg%3D%3D"
-			(at 220.98 83.82 0)
+			(at 198.12 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,16 +4544,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
-		(at 180.34 81.28 90)
+		(at 157.48 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7f37ea90-10ab-4efb-992f-7fe6102a4eee")
-		(property "Reference" "Cb3"
-			(at 177.8 80.0099 90)
+		(property "Reference" "Cb2"
+			(at 154.94 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4561,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 177.8 82.5499 90)
+			(at 154.94 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4570,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 185.42 81.28 0)
+			(at 162.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +4579,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 187.96 81.28 0)
+			(at 165.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4588,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 195.58 81.28 0)
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +4597,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 193.04 81.28 0)
+			(at 170.18 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4606,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 200.66 81.28 0)
+			(at 177.8 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4615,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
-			(at 198.12 81.28 0)
+			(at 175.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4624,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
-			(at 190.5 81.28 0)
+			(at 167.64 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4633,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 205.74 81.28 0)
+			(at 182.88 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,12 +4642,12 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 203.2 81.28 0)
+			(at 154.94 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -4058,7 +4659,7 @@
 		(instances
 			(project "SMPS_BUCK_AP6320X"
 				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "Cb3")
+					(reference "Cb2")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4667,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 106.68 0)
+		(at 101.6 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4074,7 +4675,7 @@
 		(dnp no)
 		(uuid "996d03a5-cb22-43d3-b671-5f6801e48097")
 		(property "Reference" "#PWR01"
-			(at 137.16 113.03 0)
+			(at 101.6 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4083,7 +4684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 137.16 110.49 0)
+			(at 101.6 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4091,7 +4692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 106.68 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 106.68 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 106.68 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4732,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:YAGEO_RC0603FR-070RL")
-		(at 137.16 83.82 90)
+		(at 101.6 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4140,7 +4741,7 @@
 		(fields_autoplaced yes)
 		(uuid "a361f1b3-6ed0-4c84-a230-3d0f8d0bc585")
 		(property "Reference" "R1"
-			(at 138.43 82.5499 90)
+			(at 102.87 29.2099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4750,7 @@
 			)
 		)
 		(property "Value" "0 Ω"
-			(at 138.43 85.0899 90)
+			(at 102.87 31.7499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4759,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 157.48 83.82 0)
+			(at 121.92 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4768,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 162.56 85.09 0)
+			(at 127 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4777,7 @@
 			)
 		)
 		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 144.78 83.82 0)
+			(at 109.22 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,7 +4786,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 142.24 83.82 0)
+			(at 106.68 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4795,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-070RL"
-			(at 147.32 83.82 0)
+			(at 111.76 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4203,7 +4804,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008?s=N4IgTCBcDaIJ4EMDmBTA9gAgE4GMAMAbHgMwBmWAtHgOx5YA2IAugL5A"
-			(at 149.86 83.82 0)
+			(at 114.3 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4813,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-070RL?qs=0yPvnVz5%2FmpDQv43TwvCfw%3D%3D"
-			(at 154.94 83.82 0)
+			(at 119.38 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4822,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 152.4 83.82 0)
+			(at 116.84 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,7 +4831,7 @@
 			)
 		)
 		(property "Power" "100 mW"
-			(at 160.02 83.82 0)
+			(at 124.46 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,15 +4856,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Murata_Electronics_GRM188R6YA106MA73D")
-		(at 83.82 83.82 90)
+		(at 48.26 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "a997ba78-28f3-4526-ade0-f4477be64e96")
-		(property "Reference" "C1"
-			(at 81.28 81.28 90)
+		(property "Reference" "Ca1"
+			(at 45.72 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4873,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 81.28 83.82 90)
+			(at 45.72 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4882,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 88.9 83.82 0)
+			(at 53.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4891,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRM188R6YA106MA73-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 91.44 83.82 0)
+			(at 55.88 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4900,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 35V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 99.06 83.82 0)
+			(at 63.5 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4909,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 96.52 83.82 0)
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4918,7 @@
 			)
 		)
 		(property "MPN" "GRM188R6YA106MA73D"
-			(at 104.14 83.82 0)
+			(at 68.58 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,7 +4927,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R6YA106MA73D/5877411"
-			(at 101.6 83.82 0)
+			(at 66.04 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4335,7 +4936,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188R6YA106MA73D?qs=I53XXhTNm8uKsiF7Obn3Gg%3D%3D"
-			(at 93.98 83.82 0)
+			(at 58.42 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4344,7 +4945,7 @@
 			)
 		)
 		(property "Tolerance" "20 %"
-			(at 109.22 83.82 0)
+			(at 73.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,7 +4954,7 @@
 			)
 		)
 		(property "Voltage" "35 V"
-			(at 81.28 86.36 90)
+			(at 45.72 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,235 +4971,7 @@
 		(instances
 			(project "SMPS_BUCK_AP6320X"
 				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_lib:Abracon_LLC_ASPI-4030S-6R8M-T")
-		(at 124.46 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9efa218-3979-429a-a31e-fc318a856677")
-		(property "Reference" "L1"
-			(at 124.46 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Abracon LLC ASPI-4030S-6R8M-T"
-			(at 124.46 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-4030S-6R8M-T"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-4030S.pdf"
-			(at 124.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 1.6 A 90mOhm Nonstandard"
-			(at 124.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Abracon LLC"
-			(at 124.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "ASPI-4030S-6R8M-T"
-			(at 124.46 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-4030S-6R8M-T/4215209"
-			(at 124.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://ar.mouser.com/ProductDetail/ABRACON/ASPI-4030S-6R8M-T?qs=BLmuIjeT3qE8jeo8oUT4Iw%3D%3D"
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6433dd15-cbea-430c-afd6-68eb78b8ba88")
-		)
-		(pin "1"
-			(uuid "a4554cfb-b9df-4924-9472-48e4da0ba36d")
-		)
-		(instances
-			(project "SMPS_BUCK_AP6320X"
-				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
-		(at 193.04 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af463d1c-0f6f-474c-ab54-6b79069fd4d8")
-		(property "Reference" "Cb4"
-			(at 190.5 80.0099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10 uF"
-			(at 190.5 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 198.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 200.66 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 208.28 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 205.74 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 213.36 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
-			(at 210.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
-			(at 203.2 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10 %"
-			(at 218.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10 V"
-			(at 215.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9720842-5352-4cbe-aff6-f3fb5484b25a")
-		)
-		(pin "1"
-			(uuid "91c03343-2e3a-4101-8c98-cc6a64277f0f")
-		)
-		(instances
-			(project "SMPS_BUCK_AP6320X"
-				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "Cb4")
+					(reference "Ca1")
 					(unit 1)
 				)
 			)
@@ -4606,7 +4979,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:YAGEO_RC0603FR-0710KL")
-		(at 73.66 76.2 180)
+		(at 38.1 22.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4615,7 +4988,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3828871-f0cf-4cae-9fa8-7b0bb257f956")
 		(property "Reference" "R4"
-			(at 73.66 71.12 0)
+			(at 38.1 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4996,7 @@
 			)
 		)
 		(property "Value" "10 kΩ"
-			(at 73.66 73.66 0)
+			(at 38.1 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +5004,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:YAGEO_RC0603FR-070RL"
-			(at 73.66 55.88 0)
+			(at 38.1 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +5013,7 @@
 			)
 		)
 		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 73.66 53.34 0)
+			(at 38.1 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +5022,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
-			(at 73.66 68.58 0)
+			(at 38.1 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4658,7 +5031,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 73.66 71.12 0)
+			(at 38.1 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4667,7 +5040,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 73.66 66.04 0)
+			(at 38.1 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4676,7 +5049,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/yageo/RC0603FR-0710KL/726880?s=N4IgTCBcDaIEoGEAMA2JBmAYnAtEg7AIxIDSAMiALoC%2BQA"
-			(at 73.66 63.5 0)
+			(at 38.1 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4685,7 +5058,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/YAGEO/RC0603FR-0710KL?qs=grNVn54RoB%252B3GtjbJj3wJQ%3D%3D"
-			(at 73.66 58.42 0)
+			(at 38.1 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,7 +5067,7 @@
 			)
 		)
 		(property "Tolerance" "1 %"
-			(at 73.66 60.96 0)
+			(at 38.1 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4703,7 +5076,7 @@
 			)
 		)
 		(property "Power" "100 mW"
-			(at 73.66 50.8 0)
+			(at 38.1 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +5101,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 88.9 0)
+		(at 35.56 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4736,7 +5109,7 @@
 		(dnp no)
 		(uuid "c438e79f-49da-449a-beff-2e71ef8f9a4a")
 		(property "Reference" "#PWR05"
-			(at 71.12 95.25 0)
+			(at 35.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +5118,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 92.71 0)
+			(at 35.56 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 88.9 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 88.9 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +5144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 88.9 0)
+			(at 35.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4793,7 +5166,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Diodes_Incorporated_AP63205WU-7")
-		(at 96.52 76.2 0)
+		(at 60.96 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4801,7 +5174,7 @@
 		(dnp no)
 		(uuid "cef49bc4-a5b3-4223-bac8-4fcef23faf1c")
 		(property "Reference" "U1"
-			(at 96.52 69.85 0)
+			(at 60.96 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +5182,7 @@
 			)
 		)
 		(property "Value" "AP63205WU-7"
-			(at 96.52 82.55 0)
+			(at 60.96 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +5190,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:TSOT23-6"
-			(at 96.52 83.82 0)
+			(at 60.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +5199,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 96.52 91.44 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +5208,7 @@
 			)
 		)
 		(property "Description" "Buck Switching Regulator IC Positive Fixed 5V 1 Output 2A TSOT-23-6 Thin, TSOT-23-6"
-			(at 96.52 86.36 0)
+			(at 60.96 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4844,7 +5217,7 @@
 			)
 		)
 		(property "Manufacturer" "Diodes Incorporated"
-			(at 96.52 101.6 0)
+			(at 60.96 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4853,7 +5226,7 @@
 			)
 		)
 		(property "MPN" "AP63205WU-7"
-			(at 96.52 88.9 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +5235,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP63205WU-7/9858424?s=N4IgTCBcDaIIIAUBsBmMAGArAdQKoFoB2EAXQF8g"
-			(at 96.52 93.98 0)
+			(at 60.96 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +5244,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Diodes-Incorporated/AP63205WU-7?qs=u16ybLDytRZtkj8PzdWCOw%3D%3D"
-			(at 96.52 96.52 0)
+			(at 60.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +5253,7 @@
 			)
 		)
 		(property "LCSC" "https://www.lcsc.com/product-detail/C2071056.html?s_z=n_q_ap63205&spm=wm.fly.bg.0.xh&lcsc_vid=FlkMVAJeT1hbVgdUQlJdUlECFgNYUFwDFVkLAgdXEVMxVlNRTlVeX1VXQ1ZZVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 96.52 99.06 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,140 +5289,16 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 132.08 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfa984c0-d5f0-49b4-bc97-efcb38c83bc3")
-		(property "Reference" "Cd4"
-			(at 129.54 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 nF"
-			(at 129.54 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 137.16 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 139.7 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 144.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 152.4 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 149.86 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5 %"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50 V"
-			(at 154.94 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1f107dd-3c98-4ed1-b925-593f44f12015")
-		)
-		(pin "1"
-			(uuid "843c4039-acc9-4c31-a267-1a8b6085626a")
-		)
-		(instances
-			(project "SMPS_BUCK_AP6320X"
-				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "Cd4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 55.88 88.9 0)
+		(at 132.08 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de686f23-0c9a-46ef-96f1-6012f299691f")
-		(property "Reference" "#PWR010"
-			(at 55.88 95.25 0)
+		(uuid "da1f9a6f-395e-44a8-a921-61a33e4bf33f")
+		(property "Reference" "#PWR011"
+			(at 132.08 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5307,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 92.71 0)
+			(at 132.08 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5066,7 +5315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 88.9 0)
+			(at 132.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5075,7 +5324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 88.9 0)
+			(at 132.08 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5084,7 +5333,72 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 55.88 88.9 0)
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d3cd031-39ed-4897-9076-19309e18f9d8")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de686f23-0c9a-46ef-96f1-6012f299691f")
+		(property "Reference" "#PWR010"
+			(at 20.32 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,8 +5419,112 @@
 		)
 	)
 	(symbol
+		(lib_id "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1")
+		(at 88.9 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb7fbf99-ece4-4830-b779-d463f58254e8")
+		(property "Reference" "L1"
+			(at 88.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Abracon LLC ASPI-0628-6R8M-T1"
+			(at 88.9 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1"
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://abracon.com/Magnetics/new/ASPI-0628.pdf"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 2.2 A 52mOhm Nonstandard"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Abracon LLC"
+			(at 88.9 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ASPI-0628-6R8M-T1"
+			(at 88.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-0628-6R8M-T1/5043509"
+			(at 88.9 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/ABRACON/ASPI-0628-6R8M-T1?qs=7Oetya%252B4D2DdgyU7oRZaKg%3D%3D"
+			(at 88.9 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3cb42e9c-bc53-4178-9a93-c1ba26113227")
+		)
+		(pin "1"
+			(uuid "3be0f1b8-4cf3-4b11-a687-bb9b4060426a")
+		)
+		(instances
+			(project "SMPS_BUCK_AP6320X"
+				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC")
-		(at 111.76 73.66 0)
+		(at 76.2 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5114,7 +5532,7 @@
 		(dnp no)
 		(uuid "f1c75fae-9e00-4a73-a672-12265fd2e3fc")
 		(property "Reference" "Cd1"
-			(at 111.76 67.31 0)
+			(at 76.2 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +5540,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 111.76 69.85 0)
+			(at 76.2 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5130,7 +5548,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 111.76 78.74 0)
+			(at 76.2 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,7 +5557,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL10B104JB8NNNC_Spec.pdf"
-			(at 111.76 81.28 0)
+			(at 76.2 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5148,7 +5566,7 @@
 			)
 		)
 		(property "Description" "0.1 µF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 111.76 88.9 0)
+			(at 76.2 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,7 +5575,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 111.76 86.36 0)
+			(at 76.2 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5584,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 111.76 93.98 0)
+			(at 76.2 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,7 +5593,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
-			(at 111.76 91.44 0)
+			(at 76.2 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5184,7 +5602,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10B104JB8NNNC?qs=349EhDEZ59oLEw5wc1qvGw%3D%3D"
-			(at 111.76 83.82 0)
+			(at 76.2 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5611,7 @@
 			)
 		)
 		(property "Tolerance" "5 %"
-			(at 111.76 99.06 0)
+			(at 76.2 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5620,7 @@
 			)
 		)
 		(property "Voltage" "50 V"
-			(at 111.76 96.52 0)
+			(at 81.28 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5645,7 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Würth_Elektronik_61300411121")
-		(at 33.02 134.62 0)
+		(at 17.78 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5235,7 +5653,7 @@
 		(dnp no)
 		(uuid "fc940230-089f-46b1-b254-17d4a1ef12f2")
 		(property "Reference" "J1"
-			(at 33.02 130.81 0)
+			(at 17.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5243,7 +5661,7 @@
 			)
 		)
 		(property "Value" "61300411121"
-			(at 29.21 138.43 90)
+			(at 13.97 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,7 +5669,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Würth_Elektronik_61300411121"
-			(at 33.02 154.94 0)
+			(at 17.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,7 +5678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 157.48 0)
+			(at 17.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5269,7 +5687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 162.56 0)
+			(at 17.78 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +5696,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 33.02 160.02 0)
+			(at 17.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5705,7 @@
 			)
 		)
 		(property "Mouser" ""
-			(at 33.02 170.18 0)
+			(at 17.78 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5714,7 @@
 			)
 		)
 		(property "Manufacturer" "Würth Elektronik"
-			(at 33.02 165.1 0)
+			(at 17.78 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5723,7 @@
 			)
 		)
 		(property "MPN" "61300411121"
-			(at 33.02 167.64 0)
+			(at 17.78 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5336,16 +5754,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Murata_Electronics_GRM188Z71A106KA73D")
-		(at 167.64 81.28 90)
+		(at 144.78 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fdf8328f-68e2-419c-8f2f-a9eea2d9306f")
-		(property "Reference" "Cb2"
-			(at 165.1 80.0099 90)
+		(property "Reference" "Cb1"
+			(at 142.24 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5771,7 @@
 			)
 		)
 		(property "Value" "10 uF"
-			(at 165.1 82.5499 90)
+			(at 142.24 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5780,7 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Samsung_Electro-Mechanics_CL10B104JB8NNNC"
-			(at 172.72 81.28 0)
+			(at 149.86 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5789,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71A106KA73-01A.pdf"
-			(at 175.26 81.28 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5798,7 @@
 			)
 		)
 		(property "Description" "10 µF ±10% 10V Ceramic Capacitor X7R 0603 (1608 Metric)"
-			(at 182.88 81.28 0)
+			(at 160.02 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5807,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 180.34 81.28 0)
+			(at 157.48 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5816,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 187.96 81.28 0)
+			(at 165.1 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5408,7 +5825,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
-			(at 185.42 81.28 0)
+			(at 162.56 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5417,7 +5834,7 @@
 			)
 		)
 		(property "Mouser" "https://www.mouser.com/ProductDetail/Murata-Electronics/GRM188Z71A106KA73D?qs=d0WKAl%252BL4KaRM1L%252BaIs%2FqQ%3D%3D"
-			(at 177.8 81.28 0)
+			(at 154.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5426,7 +5843,7 @@
 			)
 		)
 		(property "Tolerance" "10 %"
-			(at 193.04 81.28 0)
+			(at 170.18 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5435,12 +5852,12 @@
 			)
 		)
 		(property "Voltage" "10 V"
-			(at 190.5 81.28 0)
+			(at 142.24 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(pin "2"
@@ -5452,7 +5869,7 @@
 		(instances
 			(project "SMPS_BUCK_AP6320X"
 				(path "/713efe2c-a4ec-4b02-a518-a72d7ba8ed31"
-					(reference "Cb2")
+					(reference "Cb1")
 					(unit 1)
 				)
 			)
@@ -5464,4 +5881,406 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "sheet_agro_a4.kicad_wks")
+			(type worksheet)
+			(data |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|
+			)
+			(checksum "46C6D935B05B3F2B0A5F1FE61971B812")
+		)
+	)
 )
