@@ -666,10 +666,10 @@
     "bom_export_filename": "..\\Outputs\\BOM\\BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": ";",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""
@@ -847,7 +847,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "kicad-embed://sheet_agro_a4.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "../Outputs/Schematic/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

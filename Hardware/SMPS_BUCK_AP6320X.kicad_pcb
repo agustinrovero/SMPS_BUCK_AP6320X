@@ -298,6 +298,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17db0a46-e2eb-4179-b82b-711931f009bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/fdf8328f-68e2-419c-8f2f-a9eea2d9306f")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -515,6 +528,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67303baf-d439-4549-bad1-907fe3d8d500")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/17330886-e8e2-47e1-9fc9-6c6df6048418")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -698,6 +724,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4caf4779-344c-4eda-b601-42a6899c0cc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.4"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf4d9c9b-0dfd-4509-b63a-80bbdca37355")
 			(effects
 				(font
 					(size 1 1)
@@ -897,6 +936,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "77bd358a-faf2-4809-9e70-5de413f14869")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.12"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c581d348-f58c-4fbe-afb6-361e179159c1")
 			(effects
 				(font
 					(size 1 1)
@@ -1132,6 +1184,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67823d2e-adc0-4688-acec-2fbf015514aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/a361f1b3-6ed0-4c84-a230-3d0f8d0bc585")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -1341,6 +1406,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "36bd5ca7-13cc-4518-8edb-2e8631b41767")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4d103cc-ac1a-4390-a649-d6203a4bcd40")
 			(effects
 				(font
 					(size 1 1)
@@ -1577,6 +1655,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "659f1e77-841c-43da-9933-6758af57905f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/7f37ea90-10ab-4efb-992f-7fe6102a4eee")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -1786,6 +1877,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "feecd586-4de1-47bf-a901-31e1a141ce20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb486f07-786f-45dd-a3c9-95faf3883512")
 			(effects
 				(font
 					(size 1 1)
@@ -2015,6 +2119,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a0dc7ad5-9aa4-4b8f-b3db-7c3c67d800e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5896f01-1a1a-49f1-8757-22d153b7d982")
 			(effects
 				(font
 					(size 1 1)
@@ -2252,6 +2369,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8982013d-3e35-4fdf-b857-2374c1690880")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/f1c75fae-9e00-4a73-a672-12265fd2e3fc")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -2461,6 +2591,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fecb8743-8e84-4eff-8ca1-5f40f9b6ddb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8c523cc-9370-4f33-989a-2e023c3ce380")
 			(effects
 				(font
 					(size 1 1)
@@ -2697,6 +2840,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.11"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e29185c5-1091-4506-823c-8841b865378f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/047efdca-f4c4-439a-a57e-02d620458c4f")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -2919,6 +3075,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e68e6cfc-8484-442b-9a0d-233de3882c56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa9952a7-9de7-4f48-a1a9-14adcf525169")
 			(effects
 				(font
 					(size 1 1)
@@ -3155,6 +3324,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a66ba290-c47d-4891-9d08-9650debb4ee8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/2aaf3d19-c606-4e6c-9a58-b0c8028a200e")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -3377,6 +3559,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1cf589fa-a64e-4c50-a8cb-a31aa6fb7bbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be2eafb5-7ce7-4377-880b-9cf8a6afe975")
 			(effects
 				(font
 					(size 1 1)
@@ -3613,6 +3808,19 @@
 				)
 			)
 		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39d9a370-41f3-4496-b506-9f3110b1b14e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/0aabd1b5-2097-45f1-822b-5bda14cfcc50")
 		(sheetname "/")
 		(sheetfile "SMPS_BUCK_AP6320X.kicad_sch")
@@ -3809,6 +4017,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "647e6704-94cb-4733-8cdd-03ec84215a54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.8"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8eb1197-049c-4b40-b0d2-f0d67cbb74cf")
 			(effects
 				(font
 					(size 1 1)
@@ -4844,6 +5065,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4614a3b0-ff62-4c3c-a4b0-3db222548f29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.19"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "71740a25-2a2e-478a-914a-b8b337844ce5")
 			(effects
 				(font
 					(size 1 1)

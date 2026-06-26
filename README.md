@@ -25,11 +25,11 @@ The base PCB accommodates any of the four chip versions. Your component selectio
 
 ## Repository Structure
 
-* `/Hardware`: Core KiCad project files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).
-* `/Docs`: Component [datasheets](https://diodes.com) and reference application notes.
+* `Hardware`: Core KiCad project files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).
+* `Docs`: Component [datasheets](https://diodes.com) and reference application notes.
 * `Outputs/3D`:
 * `Outputs/BOM`: Interactive Bill of Materials (iBOM) and CSV component list.
-* `/Outputs/Gerbers`: Production-ready Gerber and NC Drill files.
+* `Outputs/Gerbers`: Production-ready Gerber and NC Drill files.
 
 ---
 
