@@ -15,12 +15,13 @@ This repository contains the hardware design files in **KiCad** for an ultra-com
 
 The base PCB accommodates any of the four chip versions. Your component selection for the feedback network ($R_1$ and $R_2$) depends entirely on the specific IC you choose to solder:
 
-| Variant | Frequency | Light-Load Mode | Output Voltage ($V_{OUT}$) | PCB Assembly Note |
+| Variant | Frequency | Light-Load Mode | Output Voltage | PCB Assembly Note |
 | :--- | :--- | :--- | :--- | :--- |
 | **AP63200** | 500 kHz | PFM (High Efficiency) | Adjustable (0.8 V to $V_{IN}$) | Populate feedback resistors $R_1$ and $R_2$, and capacitor $C_{f1}$ |
 | **AP63201** | 500 kHz | Forced PWM | Adjustable (0.8 V to $V_{IN}$) | Populate feedback resistors $R_1$ and $R_2$, and capacitor $C_{f1}$ |
 | **AP63203** | 1.1 MHz | PFM (High Efficiency) | **Fixed 3.3 V** | Solder $0\,\Omega$ jumper on $R_1$, omit $R_2$ |
 | **AP63205** | 1.1 MHz | PFM (High Efficiency) | **Fixa 5.0 V** | Solder $0\,\Omega$ jumper on $R_1$, omit $R_2$ |
+
 ---
 
 ## Repository Structure
@@ -33,15 +34,14 @@ The base PCB accommodates any of the four chip versions. Your component selectio
 
 ---
 
-## Mini PCB Layout
+## Component Specifications & Form Factor
 
-* Capacitors, resistors ands LED are all 0603 size.
-* Inductor uses a $6\times 6$ mm footprint.
-  * The provided inductor was chosen to fulfill the 2 A output current requirement, but other inductors can be used, such as the Abracon LLC ASPI-0628-6R8M-T1 for up to 1 A (or 1.5 A) with a lower profile (only 2.8 mm instead of 4.5 mm).
-*
+* **Passives:** All capacitors, resistors, and LEDs utilize compact **0603** SMD packages to minimize the board footprint.
+* **Power Inductor ($L_1$):** Designed with a standard **$6\times 6\text{ mm}$** footprint.
+  * The default inductor handles the full 2 A output requirement.
+  * For lower profile or lower current applications, alternative inductors like the **Abracon ASPI-0628-6R8M-T1** can be used (supports up to 1.5 A with a height of only 2.8 mm instead of 4.5 mm).
 
-
-
+---
 
 ## Critical Component Selection
 
