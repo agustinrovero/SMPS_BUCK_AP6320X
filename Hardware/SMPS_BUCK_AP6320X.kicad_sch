@@ -5,13 +5,14 @@
 	(uuid "713efe2c-a4ec-4b02-a518-a72d7ba8ed31")
 	(paper "A4")
 	(title_block
-		(title "AP6320X BUCK SMPS")
-		(date "2026-06-24")
+		(title "${TITLE}")
+		(date "${DATE}")
 		(rev "${REV}")
-		(comment 1 "Agustin Rovero")
+		(comment 1 "${AUTHOR}")
+		(comment 2 "${GITHUB}")
 	)
 	(lib_symbols
-		(symbol "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1"
+		(symbol "kicad_lib:Abracon_LLC_ASPI-6045S-6R8M-T"
 			(pin_numbers
 				(hide yes)
 			)
@@ -22,14 +23,6 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Abracon LLC ASPI-0628-6R8M-T1"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -37,7 +30,15 @@
 					)
 				)
 			)
-			(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1"
+			(property "Value" "Abracon LLC ASPI-6045S-6R8M-T"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-6045S-6R8M-T"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -46,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://abracon.com/Magnetics/new/ASPI-0628.pdf"
+			(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-6045S.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -55,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 2.2 A 52mOhm Nonstandard"
+			(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 3 A 31mOhm Nonstandard"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -73,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "ASPI-0628-6R8M-T1"
+			(property "MPN" "ASPI-6045S-6R8M-T"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -82,7 +83,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-0628-6R8M-T1/5043509"
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-6045S-6R8M-T/2343387"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -91,7 +92,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" "https://www.mouser.com/ProductDetail/ABRACON/ASPI-0628-6R8M-T1?qs=7Oetya%252B4D2DdgyU7oRZaKg%3D%3D"
+			(property "Mouser" "https://www.mouser.com/ProductDetail/ABRACON/ASPI-6045S-6R8M-T?qs=Y3s8Jkk9bu9mAbWIGyDq8w%3D%3D"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -100,7 +101,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "Abracon_LLC_ASPI-0628-6R8M-T1_0_1"
+			(property "RoHS" "Compliant"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.4"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Abracon_LLC_ASPI-6045S-6R8M-T_0_1"
 				(arc
 					(start -2.54 0)
 					(mid -1.905 0.635)
@@ -150,7 +169,7 @@
 					)
 				)
 			)
-			(symbol "Abracon_LLC_ASPI-0628-6R8M-T1_1_1"
+			(symbol "Abracon_LLC_ASPI-6045S-6R8M-T_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -275,6 +294,24 @@
 			)
 			(property "LCSC" "https://www.lcsc.com/product-detail/C2071056.html?s_z=n_q_ap63205&spm=wm.fly.bg.0.xh&lcsc_vid=FlkMVAJeT1hbVgdUQlJdUlECFgNYUFwDFVkLAgdXEVMxVlNRTlVeX1VXQ1ZZVTsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.8"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -487,6 +524,24 @@
 			)
 			(property "Mouser" "https://www.mouser.com/ProductDetail/LITEON/LTST-C190KFKT?qs=6QHXI9jVcTyVErVIqD1vhg%3D%3D"
 				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Compliant"
+				(at 0 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.12"
+				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -727,6 +782,24 @@
 					(hide yes)
 				)
 			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.1"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Murata_Electronics_GRM188R6YA106MA73D_0_1"
 				(polyline
 					(pts
@@ -855,7 +928,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
+			(property "MPN" "GRM188Z71A106KA73D"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -893,6 +966,24 @@
 			)
 			(property "Voltage" "10 V"
 				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.1"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1082,6 +1173,24 @@
 					(hide yes)
 				)
 			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.11"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "Samsung_Electro-Mechanics_CL10A105KB8NNNC_0_1"
 				(polyline
 					(pts
@@ -1210,7 +1319,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part Number" "CL10B104JB8NNNC"
+			(property "MPN" "CL10B104JB8NNNC"
 				(at 0 -20.32 0)
 				(effects
 					(font
@@ -1248,6 +1357,24 @@
 			)
 			(property "Voltage" "50 V"
 				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.1"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1429,6 +1556,24 @@
 				)
 			)
 			(property "Dielectric" "C0G, NP0"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.1"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Compliant"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -1511,15 +1656,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 3.81 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "61300411121"
-				(at -3.81 -6.35 90)
+			(property "Value" "Würth Elektronik 61300411121"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1535,7 +1680,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
 				(at 0 -22.86 0)
 				(effects
 					(font
@@ -1544,7 +1689,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Connector Header Through Hole 4 position 0.100\" (2.54mm)"
 				(at 0 -27.94 0)
 				(effects
 					(font
@@ -1553,7 +1698,7 @@
 					(hide yes)
 				)
 			)
-			(property "DigiKey" ""
+			(property "DigiKey" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300411121/4846827?s=N4IgTCBcDaIGwEYDMAGFAWBWwJAXQF8g"
 				(at 0 -25.4 0)
 				(effects
 					(font
@@ -1562,7 +1707,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser" ""
+			(property "Mouser" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
 				(at 0 -35.56 0)
 				(effects
 					(font
@@ -1582,6 +1727,24 @@
 			)
 			(property "MPN" "61300411121"
 				(at 0 -33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Compliant"
+				(at 0 -38.1 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.19"
+				(at 0 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1783,6 +1946,24 @@
 					(hide yes)
 				)
 			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.1"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "YAGEO_RC0603FR-070RL_0_1"
 				(polyline
 					(pts
@@ -1945,6 +2126,24 @@
 					(hide yes)
 				)
 			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.1"
+				(at 0 -30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "YAGEO_RC0603FR-0710KL_0_1"
 				(polyline
 					(pts
@@ -2100,6 +2299,24 @@
 			)
 			(property "Power" "100 mW"
 				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RoHS" "Compliant"
+				(at 0 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Unity Price (DigiKey, US$)" "0.1"
+				(at 0 -30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2278,7 +2495,7 @@
 	)
 	(rectangle
 		(start 10.16 63.5)
-		(end 35.56 83.82)
+		(end 35.56 86.36)
 		(stroke
 			(width 0.762)
 			(type default)
@@ -2287,6 +2504,77 @@
 			(type none)
 		)
 		(uuid 990c008f-6bdb-45ce-930e-f85a06d5b28c)
+	)
+	(rectangle
+		(start 38.1 63.5)
+		(end 180.34 86.36)
+		(stroke
+			(width 0.762)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b4ee5658-deef-4d98-a866-2c13ea098032)
+	)
+	(text "CONNECTOR"
+		(exclude_from_sim no)
+		(at 33.02 66.04 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "17ba79d0-bb7a-4643-a28b-5ec90ba0254b")
+	)
+	(text "TRANSCEIVER"
+		(exclude_from_sim no)
+		(at 193.04 12.7 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "4b80a530-4548-4e83-bca9-0b44e32886f2")
+	)
+	(text "NOTES"
+		(exclude_from_sim no)
+		(at 177.8 66.04 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "d719115b-55f3-42f9-96a5-376dd9de5443")
+	)
+	(text_box "- Components sharing the same second letter have the same part number (e.g., all Ca# parts are identical, as are all Cb#, Cd#, etc.).\n- Populate Cf1, R1 and R2 when using AP63200 or AP63201. Choose R1 and R2 based the desired output voltage.\n- Leave Cf1, R1 and R2 unchanged when using AP63203 or AP63205."
+		(exclude_from_sim no)
+		(at 40.64 68.58 0)
+		(size 137.16 15.24)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c1338b4f-cff9-49c1-9c43-dd9a2b37c5c7")
 	)
 	(junction
 		(at 30.48 25.4)
@@ -2772,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 76.2) (xy 33.02 76.2)
+			(xy 22.86 78.74) (xy 33.02 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2782,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 73.66) (xy 33.02 73.66)
+			(xy 22.86 76.2) (xy 33.02 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 71.12) (xy 33.02 71.12)
+			(xy 22.86 73.66) (xy 33.02 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2842,7 +3130,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 78.74) (xy 33.02 78.74)
+			(xy 22.86 81.28) (xy 33.02 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2921,7 +3209,7 @@
 		(uuid "6420a65c-3637-443e-b9e1-acefb5560870")
 	)
 	(label "GND"
-		(at 33.02 73.66 180)
+		(at 33.02 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2941,7 +3229,7 @@
 		(uuid "65f8cc16-26f1-4009-b41f-bb5547d2d49a")
 	)
 	(label "VIN"
-		(at 33.02 71.12 180)
+		(at 33.02 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2961,7 +3249,7 @@
 		(uuid "99492531-106b-4b54-8121-1d20281bd4b4")
 	)
 	(label "EN"
-		(at 33.02 76.2 180)
+		(at 33.02 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2971,7 +3259,7 @@
 		(uuid "a25b23da-ba64-4bae-8b7a-132dd3e7235e")
 	)
 	(label "VOUT"
-		(at 33.02 78.74 180)
+		(at 33.02 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3090,6 +3378,24 @@
 		)
 		(property "Temperature Coefficient" "X5R"
 			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.11"
+			(at 20.32 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,15 +3546,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 139.7 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
 			(at 137.16 27.94 0)
 			(effects
@@ -3283,6 +3580,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL10B104JB8NNNC"
+			(at 139.7 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 119.38 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3539,6 +3863,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Compliant"
+			(at 101.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 132.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7de37881-8ce0-4067-9199-be924a1c1e1e")
 		)
@@ -3617,15 +3959,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 190.5 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
 			(at 187.96 27.94 0)
 			(effects
@@ -3660,6 +3993,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM188Z71A106KA73D"
+			(at 190.5 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 198.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 170.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3870,15 +4230,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 55.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
 			(at 53.34 30.48 0)
 			(effects
@@ -3913,6 +4264,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL10B104JB8NNNC"
+			(at 55.88 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 63.5 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4113,6 +4491,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Compliant"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 96.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1f0bed7c-c49e-4a07-a34c-0f1fd66d8852")
 		)
@@ -4228,6 +4624,24 @@
 		)
 		(property "Power" "100 mW"
 			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 177.8 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 177.8 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,15 +4792,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 152.4 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
 			(at 149.86 27.94 0)
 			(effects
@@ -4421,6 +4826,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "CL10B104JB8NNNC"
+			(at 152.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 160.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 132.08 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4527,6 +4959,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Compliant"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.12"
+			(at 213.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "K"
 			(uuid "290a8765-09c5-479c-953b-31069d3e3f4b")
 		)
@@ -4605,15 +5055,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 177.8 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
 			(at 175.26 27.94 0)
 			(effects
@@ -4648,6 +5089,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM188Z71A106KA73D"
+			(at 177.8 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 185.42 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 157.48 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -4839,6 +5307,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Compliant"
+			(at 101.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 132.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b8bf1f4-6e23-4c54-992e-9541b3fdc55a")
 		)
@@ -4962,6 +5448,24 @@
 				(justify left)
 			)
 		)
+		(property "RoHS" "Compliant"
+			(at 76.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 48.26 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17e5e09c-9b93-4837-92da-c39126cb8ba2")
 		)
@@ -5077,6 +5581,24 @@
 		)
 		(property "Power" "100 mW"
 			(at 38.1 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 38.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 38.1 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,6 +5783,24 @@
 				(hide yes)
 			)
 		)
+		(property "RoHS" "Compliant"
+			(at 60.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.8"
+			(at 60.96 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "26108661-2aed-4c9d-8c16-0254175ce1a1")
 		)
@@ -5419,14 +5959,14 @@
 		)
 	)
 	(symbol
-		(lib_id "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1")
+		(lib_id "kicad_lib:Abracon_LLC_ASPI-6045S-6R8M-T")
 		(at 88.9 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "eb7fbf99-ece4-4830-b779-d463f58254e8")
+		(uuid "e7ca347b-9edb-4b1b-9c00-5af992a980db")
 		(property "Reference" "L1"
 			(at 88.9 20.32 0)
 			(effects
@@ -5435,7 +5975,7 @@
 				)
 			)
 		)
-		(property "Value" "Abracon LLC ASPI-0628-6R8M-T1"
+		(property "Value" "Abracon LLC ASPI-6045S-6R8M-T"
 			(at 88.9 20.32 0)
 			(effects
 				(font
@@ -5444,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-0628-6R8M-T1"
+		(property "Footprint" "kicad_lib:Abracon_LLC_ASPI-6045S-6R8M-T"
 			(at 88.9 43.18 0)
 			(effects
 				(font
@@ -5453,7 +5993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/Magnetics/new/ASPI-0628.pdf"
+		(property "Datasheet" "https://abracon.com/Magnetics/power/ASPI-6045S.pdf"
 			(at 88.9 33.02 0)
 			(effects
 				(font
@@ -5462,7 +6002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 2.2 A 52mOhm Nonstandard"
+		(property "Description" "6.8 µH Shielded Drum Core, Wirewound Inductor 3 A 31mOhm Nonstandard"
 			(at 88.9 38.1 0)
 			(effects
 				(font
@@ -5480,7 +6020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ASPI-0628-6R8M-T1"
+		(property "MPN" "ASPI-6045S-6R8M-T"
 			(at 88.9 27.94 0)
 			(effects
 				(font
@@ -5489,7 +6029,7 @@
 				(hide yes)
 			)
 		)
-		(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-0628-6R8M-T1/5043509"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/abracon-llc/ASPI-6045S-6R8M-T/2343387"
 			(at 88.9 35.56 0)
 			(effects
 				(font
@@ -5498,7 +6038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" "https://www.mouser.com/ProductDetail/ABRACON/ASPI-0628-6R8M-T1?qs=7Oetya%252B4D2DdgyU7oRZaKg%3D%3D"
+		(property "Mouser" "https://www.mouser.com/ProductDetail/ABRACON/ASPI-6045S-6R8M-T?qs=Y3s8Jkk9bu9mAbWIGyDq8w%3D%3D"
 			(at 88.9 30.48 0)
 			(effects
 				(font
@@ -5507,11 +6047,29 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3cb42e9c-bc53-4178-9a93-c1ba26113227")
+		(property "RoHS" "Compliant"
+			(at 88.9 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.4"
+			(at 88.9 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3be0f1b8-4cf3-4b11-a687-bb9b4060426a")
+			(uuid "2a810519-fb01-48bd-aac3-f50b39ae7326")
+		)
+		(pin "2"
+			(uuid "1cfeca29-afe0-42b9-ab8d-135da140c6d9")
 		)
 		(instances
 			(project "SMPS_BUCK_AP6320X"
@@ -5583,15 +6141,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104JB8NNNC"
-			(at 76.2 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104JB8NNNC/3886691?s=N4IgTCBcDaIMIBkCMAGAQqgLAKTQDgDki4QBdAXyA"
 			(at 76.2 38.1 0)
 			(effects
@@ -5628,6 +6177,33 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CL10B104JB8NNNC"
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 76.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c06e4762-d5b1-4416-a626-be31629506cf")
 		)
@@ -5645,15 +6221,15 @@
 	)
 	(symbol
 		(lib_id "kicad_lib:Würth_Elektronik_61300411121")
-		(at 17.78 71.12 0)
+		(at 17.78 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fc940230-089f-46b1-b254-17d4a1ef12f2")
 		(property "Reference" "J1"
-			(at 17.78 67.31 0)
+			(at 17.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +6237,7 @@
 			)
 		)
 		(property "Value" "61300411121"
-			(at 13.97 74.93 90)
+			(at 13.97 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,15 +6245,6 @@
 			)
 		)
 		(property "Footprint" "kicad_lib:Würth_Elektronik_61300411121"
-			(at 17.78 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 17.78 93.98 0)
 			(effects
 				(font
@@ -5686,16 +6253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 17.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DigiKey" ""
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300411121.pdf"
 			(at 17.78 96.52 0)
 			(effects
 				(font
@@ -5704,16 +6262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser" ""
-			(at 17.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Würth Elektronik"
+		(property "Description" "Connector Header Through Hole 4 position 0.100\" (2.54mm)"
 			(at 17.78 101.6 0)
 			(effects
 				(font
@@ -5722,8 +6271,53 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "61300411121"
+		(property "DigiKey" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/61300411121/4846827?s=N4IgTCBcDaIGwEYDMAGFAWBWwJAXQF8g"
+			(at 17.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" "https://www.mouser.com/ProductDetail/Wurth-Elektronik/61300411121?qs=PhR8RmCirEYQcLLqXD8rAA%3D%3D"
+			(at 17.78 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
 			(at 17.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61300411121"
+			(at 17.78 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 17.78 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.19"
+			(at 17.78 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,15 +6409,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM188Z71A106KA73D"
-			(at 165.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188Z71A106KA73D/13401725"
 			(at 162.56 27.94 0)
 			(effects
@@ -5858,6 +6443,33 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "MPN" "GRM188Z71A106KA73D"
+			(at 165.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RoHS" "Compliant"
+			(at 172.72 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Unity Price (DigiKey, US$)" "0.1"
+			(at 144.78 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
